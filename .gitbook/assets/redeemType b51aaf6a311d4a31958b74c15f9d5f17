@@ -1,0 +1,9 @@
+﻿redeemType,Description,redeemData schema
+powerup,Activates a Truffle powerup,"{
+“powerupId”: <powerupId>,
+“duractionSeconds”: <no. seconds>
+}"
+alertCustomMessage,Triggers an Alert with a custom message,open page to view schema
+collectiblePack,Used to open a collectible pack,open page to view schema
+event,Used to broadcast an event topic when redeemed,open page to view schema
+recipe,"Used to upgrade a series of collectibles to a different collectible. ",open page to view schema
