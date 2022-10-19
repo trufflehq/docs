@@ -4,8 +4,6 @@
 
 * [Overview](README.md)
 * [Get Started](the-basics/get-started.md)
-* [Orgs](the-basics/orgs.md)
-* [Packages](the-basics/packages.md)
 
 ## Front-end Dev
 
@@ -38,6 +36,11 @@
 ## 🧫 Truffle Functions
 
 * [Introduction](truffle-functions/introduction.md)
+
+## Concepts
+
+* [Orgs](concepts/orgs.md)
+* [Packages](concepts/packages.md)
 
 ## Tutorials
 
