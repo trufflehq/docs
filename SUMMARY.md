@@ -4,6 +4,7 @@
 
 * [Overview](README.md)
 * [Get Started](the-basics/get-started.md)
+* [Orgs](the-basics/orgs.md)
 * [Packages](the-basics/packages.md)
 
 ## Front-end Dev
