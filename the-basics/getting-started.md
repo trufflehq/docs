@@ -2,7 +2,7 @@
 description: It only takes a few commands to start developing a package!
 ---
 
-# Get Started
+# Getting Started
 
 ## Getting started
 
@@ -16,6 +16,17 @@ We will give you an API key you can use. If you don’t have one, we’re still 
 
 ```bash
 npm i -g trufflehq/truffle-cli
+```
+
+or
+
+```bash
+yarn global add trufflehq/truffle-cli
+```
+
+#### Authenticate
+
+```bash
 truffle-cli auth <secretKey>
 ```
 

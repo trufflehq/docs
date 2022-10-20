@@ -3,7 +3,7 @@
 ## The Basics
 
 * [Overview](README.md)
-* [Get Started](the-basics/get-started.md)
+* [Getting Started](the-basics/getting-started.md)
 
 ## Front-end Dev
 
