@@ -20,7 +20,7 @@ At the most basic level, a package is simply a container that implements a featu
 
 Each package has its own site that is rendered through web components. This allows developers to create sites using whatever framework supports web component creation including React, Vue, and Svelte.
 
-When you invoke `truffle-cli create` on the command line, it will fork the default package and give you some code to get started with creating a site. Check out the docs on [Creating a site](../front-end-dev/creating-a-site.md) to learn more.
+When you invoke `truffle-cli create` on the command line, it will fork the default package and give you some code to get started with creating a site. Check out the docs on [Creating a site](../front-end-dev/how-packages-are-used.md) to learn more.
 
 ### Providing UI components for creators
 

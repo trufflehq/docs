@@ -7,7 +7,7 @@
 
 ## Front-end Dev
 
-* [Creating a site](front-end-dev/creating-a-site.md)
+* [How packages are used](front-end-dev/how-packages-are-used.md)
 * [Interacting with our backend](front-end-dev/interacting-with-our-backend.md)
 * [Importing other packages](front-end-dev/importing-other-packages.md)
 * [Truffle.TV Embeds](front-end-dev/truffle.tv-embeds/README.md)
