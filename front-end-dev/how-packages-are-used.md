@@ -1,4 +1,4 @@
-# How packages are used
+# Creating a site
 
 ### How creators (and other developers) use components
 

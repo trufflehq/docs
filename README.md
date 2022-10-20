@@ -30,8 +30,16 @@ Think of a Truffle package as a more powerful Twitch extension, that works for Y
 
 From a tech standpoint, we have 3 toolsets you can use to build these packages:
 
-1\) Frontend framework
+#### 1) Frontend framework
 
-2\) GraphQL API
+This is a simple frontend framework that allows you to write components in React and deploy them to Truffle's hosting infrastructure.
 
-3\) Edge functions
+It's complete with file-system-based routing, a dev server, and the ability to use React (and eventually other frameworks like Vue, Svelte, etc...)
+
+#### 2) GraphQL API
+
+This will let you hook into our backend for working with users, collectibles, channel points,&#x20;
+
+#### 3) Edge Functions
+
+For anything you can't achieve with our GraphQL API, you can use our hosted Edge Functions (aka serverless)
