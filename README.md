@@ -38,10 +38,12 @@ This is a simple frontend framework that allows you to write components in React
 
 It's complete with file-system-based routing, a dev server, and the ability to use React (and eventually other frameworks like Vue, Svelte, etc...)
 
+Your frontend code will be able to embed itself into YouTube and Twitch livestreams, and control various parts of the page (to be able to position your element, tweak styles on chat messages, etc...)
+
 #### 2) GraphQL API
 
-This will let you hook into our backend for working with users, collectibles, channel points,&#x20;
+This will let you hook into our backend for working with users, collectibles, channel points, roles, permissions, etc...
 
 #### 3) Edge Functions
 
-For anything you can't achieve with our GraphQL API, you can use our hosted Edge Functions (aka serverless)
+For anything you can't achieve with our GraphQL API, you can use our hosted Edge Functions (aka serverless). We host these so you don't have to pay for hosting, and tie everything together with our truffle-cli
