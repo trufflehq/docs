@@ -38,8 +38,8 @@
 ## Concepts
 
 * [Orgs](concepts/orgs.md)
-* [Packages](concepts/packages/README.md)
-  * [How packages are used](concepts/packages/how-packages-are-used.md)
+* [Packages](concepts/packages.md)
+  * [How packages are used](front-end-dev/how-packages-are-used.md)
 
 ## Reference
 

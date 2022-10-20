@@ -8,7 +8,7 @@
 
 When a creator signs up, we fork a “default site” package that has some basic pages. Each page is a component, and those components can hold other components (think of it like a grid layout, where a component can go in each block).
 
-![](<../../.gitbook/assets/unknown (8).png>)
+![](<../.gitbook/assets/unknown (8).png>)
 
 So when a creator sets up their site, they can use components you’ve built
 

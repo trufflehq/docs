@@ -20,7 +20,7 @@ At the most basic level, a package is simply a container that implements a featu
 
 Each package has its own site that is rendered through web components. This allows developers to create sites using whatever framework supports web component creation including React, Vue, and Svelte.
 
-When you invoke `truffle-cli create` on the command line, it will fork the default package and give you some code to get started with creating a site. Check out the docs on [Creating a site](how-packages-are-used.md) to learn more.
+When you invoke `truffle-cli create` on the command line, it will fork the default package and give you some code to get started with creating a site. Check out the docs on [Creating a site](../front-end-dev/how-packages-are-used.md) to learn more.
 
 ### Providing UI components for creators
 
@@ -78,7 +78,7 @@ Notice that in both files we import React from npm.tfl.dev. Standard Node librar
 
 If you're a fan of Ludwig, DrLupo, LilyPichu, or Myth, and you have the truffle.tv browser extension installed, you've probably seen this interface:
 
-![A screenshot of the mogul-menu truffle.tv extension mapping](../../.gitbook/assets/image.png)
+![A screenshot of the mogul-menu truffle.tv extension mapping](../.gitbook/assets/image.png)
 
 The screenshot above is of our own mogul-menu extension mapping, but any package developer has the power to create one! Using truffle.tv extension mappings, you can easily add features to YouTube or Twitch. To learn more, you can read the docs on [truffle.tv extension mappings](broken-reference).
 
@@ -91,7 +91,7 @@ Actions provide a way for other parts of the Truffle ecosystem to hook into your
 3. Google PubSub actions allow you to notify a Google PubSub topic.
 4. Workflow actions allow you to execute a sequence of other actions.
 
-To trigger an action, you'll use a reference to it that will look like `@coolorg/coolpackage@latest/_Action/coolaction`. To learn more about actions, you can read the docs on [Actions](../../mycelium-api/features/actions.md).
+To trigger an action, you'll use a reference to it that will look like `@coolorg/coolpackage@latest/_Action/coolaction`. To learn more about actions, you can read the docs on [Actions](../mycelium-api/features/actions.md).
 
 ### Creating and subscribing to event topics
 
@@ -130,7 +130,7 @@ Inside your package, you can create a subscription to the `minecraft-item-redeem
 }
 ```
 
-In the snippet above, `eventTopicPath` specifies which topic the subscription is listening to, and the `actionRel` specifies which action is going to get executed when the topic receives an event. We also provide `runtimeData` that lets us customize the behavior of specific actions. In this case, we specify `endpoint` for the webhook action. To learn more, you can read the docs on [Events](../../mycelium-api/features/events.md).
+In the snippet above, `eventTopicPath` specifies which topic the subscription is listening to, and the `actionRel` specifies which action is going to get executed when the topic receives an event. We also provide `runtimeData` that lets us customize the behavior of specific actions. In this case, we specify `endpoint` for the webhook action. To learn more, you can read the docs on [Events](../mycelium-api/features/events.md).
 
 ## Going further
 

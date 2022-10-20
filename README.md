@@ -26,4 +26,12 @@ But because there’s such a broad range of creators, we’re focused on the cor
 
 A lot. But to start out and keep things simple, we're steering developers in the direction of building functionality that can improve creators' content directly on YouTube or Twitch.
 
-Think of it as a more powerful Twitch extension, that works for YouTube **and** Twitch streamers.
+Think of a Truffle package as a more powerful Twitch extension, that works for YouTube **and** Twitch streamers.
+
+From a tech standpoint, we have 3 toolsets you can use to build these packages:
+
+1\) Frontend framework
+
+2\) GraphQL API
+
+3\) Edge functions
