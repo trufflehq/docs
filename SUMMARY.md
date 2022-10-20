@@ -7,7 +7,6 @@
 
 ## Front-end Dev
 
-* [How packages are used](front-end-dev/how-packages-are-used.md)
 * [Interacting with our backend](front-end-dev/interacting-with-our-backend.md)
 * [Importing other packages](front-end-dev/importing-other-packages.md)
 * [Truffle.TV Embeds](front-end-dev/truffle.tv-embeds/README.md)
@@ -39,11 +38,8 @@
 ## Concepts
 
 * [Orgs](concepts/orgs.md)
-* [Packages](concepts/packages.md)
-
-## Tutorials
-
-* [Create a form](tutorials/create-a-form.md)
+* [Packages](concepts/packages/README.md)
+  * [How packages are used](concepts/packages/how-packages-are-used.md)
 
 ## Reference
 
@@ -84,5 +80,3 @@
       * [// TODO ChatMessage](reference/mycelium-api/models/todo/todo-chatmessage.md)
       * [// TODO: Comment](reference/mycelium-api/models/todo/todo-comment.md)
       * [// TODO: Reaction](reference/mycelium-api/models/todo/todo-reaction.md)
-* [truffle-packages](reference/truffle-packages.md)
-* [truffle-cli](reference/truffle-cli.md)
