@@ -10,7 +10,9 @@ Welcome to the Truffle Developer Platform - we’re stoked you’re here!
 
 We’re building out the infrastructure that’ll make it easy for you to build cool shit for creators :)
 
-Long-term, our primary goal is to develop this in a way that you can build an entire lucrative business on top of Truffle - similar to how many very successful businesses have started by building on top of Shopify.
+**To start, we're making it easy for you to build "apps" that creators can use in their stream** (similar to the concept of Twitch extensions)
+
+You'll be able to charge for these apps, or keep them free. And in the early days we'll work on other incentives like bounties (ideas we know creators want, that we'll pay to have built)
 
 ## Wtf is Truffle?
 
