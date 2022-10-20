@@ -28,7 +28,9 @@ A lot. But to start out and keep things simple, we're steering developers in the
 
 Think of a Truffle package as a more powerful Twitch extension, that works for YouTube **and** Twitch streamers.
 
-From a tech standpoint, we have 3 toolsets you can use to build these packages:
+## How do I build?
+
+We have 3 toolsets you can use to build these packages:
 
 #### 1) Frontend framework
 
