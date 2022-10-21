@@ -12,6 +12,10 @@
 * [Truffle.TV Embeds](front-end-dev/truffle.tv-embeds/README.md)
   * [Using the Mutation Observer](front-end-dev/truffle.tv-embeds/using-the-mutation-observer.md)
 
+***
+
+* [Examples](examples.md)
+
 ## Mycelium API
 
 * [Introduction](mycelium-api/introduction.md)
