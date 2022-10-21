@@ -4,6 +4,8 @@ We built an easy way for you to use React (and eventually any web framework) to 
 
 _Work-in-progress_
 
+### Dev server
+
 ### Using React
 
 ### Routing
@@ -13,3 +15,5 @@ _Work-in-progress_
 #### Web Components
 
 #### URL Imports
+
+### Deploying

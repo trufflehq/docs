@@ -2,7 +2,7 @@
 
 You'll likely want to communicate with our backend, so you can display information for the logged-in user, get and set key-values, use game mechanics, etc...
 
-Because your frontend code is deployed through Truffle, you can use the Truffle API package which provides query methods that are already connected and authenticated with our backend.
+Because your frontend code is deployed through Truffle, we contextualize requests and server-render basic information like the Org ID, making it readily available for your code when the page loads. You can use the Truffle API package which provides query methods that are already connected and authenticated with our backend.
 
 Our API package is built as a wrapper around the [urql](https://formidable.com/open-source/urql/) library, so you can refer to its documentation if you need to do anything advanced.
 
