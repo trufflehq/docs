@@ -68,7 +68,9 @@ This lets you change DOM styles, replace text with images, etc… in the parent 
 ```jsx
 useEffect(() => {
     const style = {
-      background: "#ff0000"
+      background: "#ff0000",
+      width: "100px",
+      height: "100px"
     };
     // sets the iframe background color to red
     jumper.call("layout.applyLayoutConfigSteps", {
