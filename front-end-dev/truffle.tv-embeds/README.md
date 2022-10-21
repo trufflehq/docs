@@ -53,7 +53,9 @@ If you don't want to use insecure mode, you can deploy and use the hosted site, 
 `https://<packageVersionId>.sporocarp.dev/embed`
 {% endhint %}
 
-### Jumper
+### More than just an iframe
+
+Embeds need to do more than just exist as a static iframe on the page; they need to be able to modify the current page, and their own iframe styles.
 
 Jumper is a library we use to communicate between your iframed package and the parent page (YouTube, Twitch, etc...).
 
