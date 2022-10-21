@@ -1,15 +1,17 @@
 # Truffle.TV Embeds
 
-Building Embeds are how you can add functionality to creators' content through [the browser extension.](https://chrome.google.com/webstore/detail/mogultv/bkkjeefjfjcfdfifddmkdmcpmaakmelp)
+"Embeds" are how you can add functionality to creators' content through [the browser extension.](https://chrome.google.com/webstore/detail/mogultv/bkkjeefjfjcfdfifddmkdmcpmaakmelp)
 
 #### Quick extension overview
 
 The core of the extension itself is fairly lightweight. It serves two main purposes:
 
-1. Adding iframes/widgets to a page (we call them "Embeds")
-   1. eg. Adding a menu for channel points and predictions to a YouTube stream
-2. A mutation observer and light modification/styling of DOM elements in a page
-   1. eg. Observing new chat messages and replacing strings in the message body with emotes
+1.  Adding iframes/widgets to a page (we call them "Embeds")
+
+    eg. Adding a menu for channel points and predictions to a YouTube stream
+2.  A mutation observer and light modification/styling of DOM elements in a page
+
+    eg. Observing new chat messages and replacing strings in the message body with emotes
 
 #### Setting up your first embed
 
@@ -17,19 +19,39 @@ The core of the extension itself is fairly lightweight. It serves two main purpo
 
 #### Testing
 
-* Visit test stream: [https://www.youtube.com/watch?v=Xe5KJINZGRA](https://www.youtube.com/watch?v=Xe5KJINZGRA)
-  * Open extension menu (Ludwig’s face)
-  * Click settings cog
-  * Click on bottom right of menu to bring up secret dev options
-  * Enter your URL: `https://<packageVersionId>.sporocarp.dev/embed`
-    *   Unfortunately [localhost](http://localhost) won’t work since it’s insecure content (http iframe inside an https page)
+First, visit test stream: [https://www.youtube.com/watch?v=Xe5KJINZGRA](https://www.youtube.com/watch?v=Xe5KJINZGRA)
 
-        * You can get it to work if you launch chrome in insecure mode:
+Then open Chrome dev tools console and run
 
-        ```jsx
-        /Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --allow-running-insecure-content </dev/null &>/dev/null &
-        ```
-  * Save and refresh
+```javascript
+localStorage.setItem(
+  'truffle:devExtensionMappings', 
+  JSON.stringify([{
+    "id": "localhost",
+    "defaultLayoutConfigSteps": [
+      { "action": "querySelector", "value": "body" },
+      { "action": "appendSubject" }
+    ],
+    "domAction": "append",
+    "iframeUrl": "http://localhost:8000/embed", // change this to your route
+    "orgId": "8e35b570-6c2f-11ec-bade-b32a8d305590",
+    "slug": "anything"
+  }])
+)
+```
+
+This will tell the browser extension to add your Embed into any page on youtube.com
+
+{% hint style="warning" %}
+Using http://localhost:8000 as your Embed url will only work if Chrome is launched in insecure mode:
+
+**Linux**: `google-chrome --allow-running-insecure-content`\
+**Mac:** `/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --allow-running-insecure-content </dev/null &>/dev/null &`
+
+If you don't want to use insecure mode, you can deploy and use the hosted site, eg:&#x20;
+
+`https://<packageVersionId>.sporocarp.dev/embed`
+{% endhint %}
 
 ### Jumper
 
