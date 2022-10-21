@@ -11,10 +11,7 @@
 * [Importing other packages](front-end-dev/importing-other-packages.md)
 * [Truffle.TV Embeds](front-end-dev/truffle.tv-embeds/README.md)
   * [Using the Mutation Observer](front-end-dev/truffle.tv-embeds/using-the-mutation-observer.md)
-
-***
-
-* [Examples](examples.md)
+* [Examples](front-end-dev/examples.md)
 
 ## Mycelium API
 
