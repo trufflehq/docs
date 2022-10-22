@@ -18,7 +18,6 @@
 
 * [Introduction](mycelium-api/introduction.md)
 * [API Keys](mycelium-api/api-keys.md)
-* [Permissions](mycelium-api/permissions.md)
 * [Features](mycelium-api/features/README.md)
   * [Game Mechanics](mycelium-api/features/game-mechanics/README.md)
     * [Collectibles](mycelium-api/features/game-mechanics/collectibles.md)
@@ -33,9 +32,9 @@
   * [Events](mycelium-api/features/events.md)
   * [Actions](mycelium-api/features/actions.md)
 
-## 🧫 Truffle Functions
+## Truffle Edge Functions
 
-* [Introduction](truffle-functions/introduction.md)
+* [Introduction](truffle-edge-functions/introduction.md)
 
 ## Concepts
 

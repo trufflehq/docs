@@ -47,3 +47,9 @@ This will let you hook into our backend for working with users, collectibles, ch
 #### 3) Edge Functions
 
 For anything you can't achieve with our GraphQL API, you can use our hosted Edge Functions (aka serverless). We host these so you don't have to pay for hosting, and tie everything together with our truffle-cli
+
+
+
+{% hint style="info" %}
+The developer platform and these docs are still in a very early stage of development. Please let us know where we can improve!
+{% endhint %}

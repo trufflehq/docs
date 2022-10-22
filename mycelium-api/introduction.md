@@ -12,7 +12,7 @@ If you're developing a site or a component, you can use our client library to in
 
 If you're writing code elsewhere (i.e. a serverless function, your own server, or maybe a raspberry pi), you'll need to authenticate using an API key. You can learn more about that by reading the docs on [API Keys](api-keys.md).
 
-To prevent mischievous users from doing mischievous things, we have a robust permissions system. Learn more about that by reading the docs on [Permissions](permissions.md).
+To prevent mischievous users from doing mischievous things, we have a robust permissions system. Learn more about that by reading the docs on [Permissions](broken-reference).
 
 ### API explorer
 
