@@ -11,7 +11,7 @@ The core of the extension itself is fairly lightweight. It serves two main purpo
     eg. Adding a menu for channel points and predictions to a YouTube stream
 2.  A mutation observer and light modification/styling of DOM elements in a page
 
-    eg. Observing new chat messages and replacing strings in the message body with emotes
+    eg. Observing new chat messages and changing the author name color
 
 #### Setting up your first embed
 

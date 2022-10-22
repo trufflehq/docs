@@ -34,7 +34,7 @@
 
 ## Truffle Edge Functions
 
-* [Introduction](truffle-edge-functions/introduction.md)
+* [Introduction](truffle-functions/introduction.md)
 
 ## Concepts
 
