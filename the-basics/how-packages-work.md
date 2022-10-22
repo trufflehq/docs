@@ -9,3 +9,5 @@ Eg. [https://myth.truffle.site/mogul-menu](https://myth.truffle.site/mogul-menu)
 Same for the "PointCrow" organization and "site" package with [https://pointcrow.truffle.site/mogul-menu](https://pointcrow.truffle.site/mogul-menu) and [https://pointcrow.truffle.site/raid-overlay](https://pointcrow.truffle.site/raid-overlay)
 
 mogul-menu and raid-overlay are two packages we've built that other creators can install and use.
+
+When a creator installs your package, you're able to specify some actions that occur (eg for mogul-menu we can add some collectibles to their organization that are required for the package to work)
