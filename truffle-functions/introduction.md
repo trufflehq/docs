@@ -20,7 +20,22 @@ export default {
   name: "@early-access-carter/optic",
   version: "0.0.1",
   apiUrl: "http://mycelium.staging.bio/graphql",
-  requestedPermissions: [],
+  requestedPermissions: [
+    {
+      filters: {
+        edgeFunction: { isAll: true, rank: 0 },
+      },
+      action: "update",
+      value: true,
+    }
+    {
+      filters: {
+        edgeDeployment: { isAll: true, rank: 0 },
+      },
+      action: "update",
+      value: true,
+    },
+  ],
   installActionRel: {},
 + functions: [
 +  {
@@ -31,6 +46,8 @@ export default {
 + ]
 }
 ```
+
+From this point, make sure you do a `truffle-cli deploy` to make sure that all of the permissions are set up.
 
 Then, create the `sum.ts` file and create a web server:
 
@@ -81,7 +98,22 @@ export default {
   name: "@early-access-carter/optic",
   version: "0.0.1",
   apiUrl: "http://mycelium.staging.bio/graphql",
-  requestedPermissions: [],
+  requestedPermissions: [
+    {
+      filters: {
+        edgeFunction: { isAll: true, rank: 0 },
+      },
+      action: "update",
+      value: true,
+    },
+    {
+      filters: {
+        edgeDeployment: { isAll: true, rank: 0 },
+      },
+      action: "update",
+      value: true,
+    }
+  ],
   installActionRel: {},
   functions: [
    {
