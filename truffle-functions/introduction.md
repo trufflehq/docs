@@ -11,8 +11,8 @@ Truffle Functions execute TypeScript code in the Deno Runtime. Creating a new fu
 In your existing `truffle.config.mjs` file, add the definition for your Function:
 
 {% hint style="danger" %}
-Due to the nature of DNS, function slugs are case insensetive, and every one is unique.\
-`render` and `calculatesum` have been reserved by Truffle for documentation purpouses.
+Due to the nature of DNS, function slugs are case insensitive, and every one is unique.\
+`render` and `calculatesum` have been reserved by Truffle for documentation purposes.
 {% endhint %}
 
 ```diff
@@ -47,7 +47,9 @@ export default {
 }
 ```
 
+{% hint style="warning" %}
 From this point, make sure you do a `truffle-cli deploy` to make sure that all of the permissions are set up.
+{% endhint %}
 
 Then, create the `sum.ts` file and create a web server:
 
