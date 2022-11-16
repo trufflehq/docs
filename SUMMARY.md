@@ -11,8 +11,8 @@
 * [Introduction](front-end-dev/introduction.md)
 * [Interacting with our backend](front-end-dev/interacting-with-our-backend.md)
 * [Importing code (eg npm)](front-end-dev/importing-code-eg-npm.md)
-* [Integrating with streams (Embeds)](front-end-dev/integrating-with-streams-embeds/README.md)
-  * [Using the Mutation Observer](front-end-dev/integrating-with-streams-embeds/using-the-mutation-observer.md)
+* [Integrating with streams (Embeds)](front-end-dev/truffle.tv-embeds/README.md)
+  * [Using the Mutation Observer](front-end-dev/truffle.tv-embeds/using-the-mutation-observer.md)
 * [Examples](front-end-dev/examples.md)
 
 ## Mycelium API
