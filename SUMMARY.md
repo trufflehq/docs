@@ -10,7 +10,7 @@
 
 * [Introduction](front-end-dev/introduction.md)
 * [Interacting with our backend](front-end-dev/interacting-with-our-backend.md)
-* [Importing other packages](front-end-dev/importing-other-packages.md)
+* [Importing code (eg npm)](front-end-dev/importing-code-eg-npm.md)
 * [Truffle.TV Embeds](front-end-dev/truffle.tv-embeds/README.md)
   * [Using the Mutation Observer](front-end-dev/truffle.tv-embeds/using-the-mutation-observer.md)
 * [Examples](front-end-dev/examples.md)
