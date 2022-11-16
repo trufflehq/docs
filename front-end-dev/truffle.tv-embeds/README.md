@@ -1,6 +1,6 @@
-# Integrating with streams (Embeds)
+# Truffle.TV Embeds
 
-"Embeds" are how you can add functionality to creators' content through [our browser extension.](https://chrome.google.com/webstore/detail/mogultv/bkkjeefjfjcfdfifddmkdmcpmaakmelp)
+"Embeds" are how you can add functionality to creators' content through [the browser extension.](https://chrome.google.com/webstore/detail/mogultv/bkkjeefjfjcfdfifddmkdmcpmaakmelp)
 
 #### Quick extension overview
 
@@ -11,7 +11,7 @@ The core of the extension itself is fairly lightweight. It serves two main purpo
     eg. Adding a menu for channel points and predictions to a YouTube stream
 2.  A mutation observer and light modification/styling of DOM elements in a page
 
-    eg. Observing new chat messages and changing the author name color, or observing new chat messages to detect an emote streak and displaying the streak
+    eg. Observing new chat messages and changing the author name color
 
 #### Setting up your first embed
 

@@ -1,5 +1,5 @@
 ---
-description: Want to know what you can build and how to build it? You're in the right place
+description: What is Truffle? How does it work? What can I build with it?
 ---
 
 # Overview

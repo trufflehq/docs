@@ -10,7 +10,7 @@ description: It only takes a few commands to start developing a package!
 
 #### Get an API key
 
-We will give you an API key you can use. If you don’t have one, we’re still working through the developer waitlist
+We will give you an API key you can use. If you don’t have one, we’re still working through the developer waitlist. Once you have an API key, you're golden and can run through the rest of the documentation!
 
 #### Install truffle-cli
 
