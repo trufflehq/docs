@@ -16,6 +16,8 @@ We anticipate most early usage of the Truffle developer platform will be adding 
 
 This will spin up a local dev server that can be accessed at [http://localhost:8080](http://localhost:8080/)
 
+When you make changes to files, the dev server will update automatically.
+
 ## Using React
 
 
