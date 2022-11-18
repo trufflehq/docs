@@ -4,7 +4,6 @@
 
 * [Overview](README.md)
 * [Getting Started](the-basics/get-started.md)
-* [How packages work](the-basics/how-packages-work.md)
 
 ## Front-end Dev
 

@@ -62,3 +62,11 @@ truffle-cli deploy
 This will give you a URL you see your package at.
 
 Or: `truffle-cli watch` to update when files get saved
+
+****
+
+**Huzzah!**
+
+You're ready to get building for creators! Head on over to the frontend-dev [introduction.md](../front-end-dev/introduction.md "mention") next :)
+
+****
