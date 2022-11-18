@@ -11,7 +11,7 @@ At the most basic level, a package is simply a container that implements a featu
 * Creating a **site** that users can log into with their Truffle account and interact with.
 * Providing **UI components** that a creator or other packages can use.
 * Providing **open-source, hosted, versioned code** that the package can use, or other packages can use.
-* Providing **extension mappings** that can be used inside of the truffle.tv browser extension.
+* Providing **embeds** that can be used inside of the truffle.tv browser extension.
 * Interacting with the truffle's **Mycelium API**.
 * Creating **actions** that can be triggered by core Truffle platform features or other packages.
 * Creating and subscribing to **event topics** generated **** from the Truffle platform or other packages.&#x20;
@@ -74,13 +74,13 @@ export default toDist(MyPage, import.meta.url)
 Notice that in both files we import React from npm.tfl.dev. Standard Node libraries are hosted on npm.tfl.dev while Truffle package files are hosted on tfl.dev.
 {% endhint %}
 
-### Providing a truffle.tv extension mapping
+### Providing a truffle.tv embed
 
 If you're a fan of Ludwig, DrLupo, LilyPichu, or Myth, and you have the truffle.tv browser extension installed, you've probably seen this interface:
 
-![A screenshot of the mogul-menu truffle.tv extension mapping](../.gitbook/assets/image.png)
+![A screenshot of the mogul-menu truffle.tv embed](../.gitbook/assets/image.png)
 
-The screenshot above is of our own mogul-menu extension mapping, but any package developer has the power to create one! Using truffle.tv extension mappings, you can easily add features to YouTube or Twitch. To learn more, you can read the docs on [truffle.tv extension mappings](broken-reference).
+The screenshot above is of our own mogul-menu embed, but any package developer has the power to create one! Using truffle.tv embeds, you can easily add features to YouTube or Twitch. To learn more, you can read the docs on [truffle.tv embeds](broken-reference)
 
 ### Creating actions
 

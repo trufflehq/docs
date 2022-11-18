@@ -37,6 +37,14 @@ truffle-cli create <package-slug>
 cd <package-slug>
 ```
 
+{% hint style="info" %}
+Everything you build in Trufle will be a package. Think of them as "apps" or "products".&#x20;
+
+Creators will be able to install your package into their site package
+
+For example, the "Myth" organization has a "site" package that serves up mogul-menu (the extension menu package with channel points, etc...), raid-overlay, and a few other packages.
+{% endhint %}
+
 #### Run dev server
 
 ```bash
