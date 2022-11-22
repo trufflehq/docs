@@ -61,8 +61,6 @@ truffle-cli deploy
 
 This will give you a URL you see your package at.
 
-Or: `truffle-cli watch` to update when files get saved
-
 ****
 
 **Huzzah!**
