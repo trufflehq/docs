@@ -105,19 +105,3 @@ Available configSteps
   * NOTE: at public release you will likely only be able to set certain style properties and/or we might wrap your iframe in a little bit of UI to indicate it was added by Truffle (we’ll need to prevent malicious devs from clickjacking)
 * `addStyleSheet`
 * `addClassNames`
-
-#### `layout.listenForElements`
-
-```jsx
-jumper.call("layout.listenForElements", {
-      listenElementLayoutConfigSteps: [
-        {
-          action: "querySelector",
-          value: "ytd-comments#comments ytd-item-section-renderer #contents",
-        },
-      ],
-      observerConfig: { childList: true, subtree: true },
-      targetQuerySelector: "ytd-comment-thread-renderer",
-      shouldCleanupMutatedElements: true,
-    }, onEmit);
-```
