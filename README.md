@@ -10,6 +10,8 @@ Welcome to the Truffle Developer Platform - we’re stoked you’re here!
 
 We’re building out the infrastructure that’ll make it easy for you to build cool shit for creators :)
 
+**Want to jump straight to building? Head over to** [get-started.md](the-basics/get-started.md "mention")!
+
 ## What can I build?
 
 **To start, we're making it easy for you to build "apps" (we call them "packages") that creators can use in their stream.** Think of a Truffle package as a more powerful Twitch extension, that works for YouTube and Twitch streamers.
