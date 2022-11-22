@@ -15,13 +15,13 @@ We will give you an API key you can use. If you don’t have one, we’re still 
 #### Install truffle-cli
 
 ```bash
-npm i -g trufflehq/truffle-cli
+npm i -g @trufflehq/cli
 ```
 
 or
 
 ```bash
-yarn global add trufflehq/truffle-cli
+yarn global add @trufflehq/cli
 ```
 
 #### Authenticate
