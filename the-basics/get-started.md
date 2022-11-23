@@ -6,7 +6,7 @@ description: It only takes a few commands to start developing a package!
 
 ## Getting started
 
-{% embed url="https://youtu.be/XU9RzvP48jU" %}
+{% embed url="https://youtu.be/fANjLZtjzog" %}
 
 #### Get an API key
 
