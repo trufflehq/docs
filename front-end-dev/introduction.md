@@ -14,13 +14,13 @@ We anticipate most early usage of the Truffle developer platform will be adding 
 
 `truffle-cli dev`
 
-This will spin up a local dev server that can be accessed at [http://localhost:8080](http://localhost:8080/)
+This will spin up a local dev server that can be accessed at [http://localhost:8000](http://localhost:8080/)
 
 When you make changes to files, the dev server will update automatically.
 
 ## Using React
 
-
+To build UI for the extension, you'll just be using React, building components as you normally would in React.
 
 ## Routing
 
@@ -29,6 +29,8 @@ We use filesystem-based routing. So if you want to add another route, just creat
 ## Deploying
 
 `truffle-cli deploy`
+
+This will host the files on our servers.
 
 ## What's different
 
@@ -40,4 +42,6 @@ You may noticed that all routes wrap their export in a `toDist` function. This c
 
 ### URL Imports
 
-Instead of having a package.json file and installing packages from npm, we use URL imports.&#x20;
+Instead of having a package.json file and installing packages from npm, we use URL imports.
+
+So instead of `import React from "react"`, you'll use `import React from "https://npm.tfl.dev/react;`
