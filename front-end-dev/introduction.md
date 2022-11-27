@@ -44,4 +44,6 @@ You may noticed that all routes wrap their export in a `toDist` function. This c
 
 Instead of having a package.json file and installing packages from npm, we use URL imports.
 
-So instead of `import React from "react"`, you'll use `import React from "https://npm.tfl.dev/react;`
+So instead of `import React from "react"`, you'll use `import React from "https://npm.tfl.dev/react`
+
+See [importing-code-eg-npm.md](importing-code-eg-npm.md "mention") for more info.
