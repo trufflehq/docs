@@ -4,6 +4,7 @@
 
 * [Overview](README.md)
 * [Getting Started](the-basics/get-started.md)
+* [Building for creators](the-basics/building-for-creators.md)
 
 ## Front-end Dev
 
