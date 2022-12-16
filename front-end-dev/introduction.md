@@ -1,14 +1,10 @@
 # Introduction
 
-We built an easy way for you to use React (and eventually any web framework) to build components that can be embedded in the extension.
+**We built an easy way for you to use React (and eventually any web framework) to build components that can be embedded in the extension.**
 
 Our front-end dev process should hopefully feel a little bit like using Next.js, just with our own unique spin to best support creators and a broader package ecosystem.
 
 Be sure to follow the steps in [get-started.md](../the-basics/get-started.md "mention") first, to install truffle-cli and create your first package.
-
-## What's the frontend code for?
-
-We anticipate most early usage of the Truffle developer platform will be adding functionality to the Truffle.TV extension, with some UI for viewers to interact. And for ideas that don't involve viewer interaction, you'll likely still want to build some sort of interface for mods and the creators to manage settings.
 
 ## Dev server
 
