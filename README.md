@@ -16,7 +16,7 @@ We’re building out the infrastructure that’ll make it easy for you to build 
 
 **To start, we're making it easy for you to build "apps" (we call them "packages") that creators can use in their stream.** Think of a Truffle package as a more powerful Twitch extension, that works for YouTube and Twitch streamers.
 
-You'll be able to charge for these packages, or keep them free. And in the early days we'll work on other incentives like bounties (ideas we know creators want, that we'll pay to have built)
+You'll be able to charge for these packages (if you want!). And in the early days we'll work on other incentives like bounties (ideas we know creators want, that we'll pay to have built)
 
 ## "How do I build?"
 
@@ -33,6 +33,8 @@ Your frontend code will be able to embed itself into YouTube and Twitch livestre
 #### 2) GraphQL API
 
 This will let you hook into our backend for working with users, collectibles, channel points, roles, permissions, etc...
+
+In an ideal world most packages will be built without needing to build your own custom backend. Though it may take some time for the API to become flexible enough for all types of ideas.
 
 #### 3) Edge Functions
 
