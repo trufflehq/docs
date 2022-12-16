@@ -12,13 +12,13 @@ We’re building out the infrastructure that’ll make it easy for you to build 
 
 **Want to jump straight to building? Head over to** [get-started.md](the-basics/get-started.md "mention")!
 
-## What can I build?
+## "What can I build?"
 
 **To start, we're making it easy for you to build "apps" (we call them "packages") that creators can use in their stream.** Think of a Truffle package as a more powerful Twitch extension, that works for YouTube and Twitch streamers.
 
 You'll be able to charge for these packages, or keep them free. And in the early days we'll work on other incentives like bounties (ideas we know creators want, that we'll pay to have built)
 
-## How do I build?
+## "How do I build?"
 
 We have 3 toolsets you can use to build these packages:
 
