@@ -39,6 +39,7 @@
 
 ## Concepts
 
+* [Design decisions](concepts/design-decisions.md)
 * [Orgs](concepts/orgs.md)
 * [Packages](concepts/packages.md)
   * [How packages are used](front-end-dev/how-packages-are-used.md)
