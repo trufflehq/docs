@@ -6,9 +6,9 @@
 * [Getting Started](the-basics/get-started.md)
 * [Building for creators](the-basics/building-for-creators.md)
 
-## truffle.tv <a href="#truffle-tv" id="truffle-tv"></a>
+## Truffle Embeds
 
-* [Getting Started](truffle-tv/getting-started.md)
+* [Getting Started](truffle-embeds/getting-started.md)
 
 ## Front-end Dev
 
