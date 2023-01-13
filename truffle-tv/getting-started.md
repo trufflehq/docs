@@ -1,6 +1,6 @@
 # Getting Started
 
-In this tutorial, we'll be creating what we call an **embed**. Embeds are simply iframes that get rendered on top of Youtube videos and live streams. All you need is the url of an app or site.
+In this tutorial, we'll be creating what we call an **embed**. Embeds are simply iframes that get rendered on top of YouTube videos and live streams. All you need is the url of an app or site.
 
 ## Setting Up a Basic Embed
 
@@ -39,7 +39,9 @@ localStorage.setItem(
 ```
 
 {% hint style="info" %}
-We're working on a less janky way of adding dev embeds... sit tight and we'll update the docs as soon as we've built it :p
+We're working on a less janky way of adding dev embeds... sit tight and we'll update the docs as soon as we've built it :p&#x20;
+
+For now, dev embeds show on every youtube.com page (including inside of their chat iframe)
 {% endhint %}
 
 Then refresh the page and you should see your shiny new embed show up on the page!
@@ -50,7 +52,7 @@ Congrats! You've created your first embed. But that's not all... we have more to
 
 ## Manipulating the Embed
 
-If you simply want to embed a static page into a Youtube video or live stream page, then following the above instructions may be enough for you. If you want to go one step further, you can use the **truffle javacript SDK** to dynamically control the appearance of the embed from within your site.
+If you simply want to embed a static page into a Youtube video or live stream page, then following the above instructions may be enough for you. If you want to go one step further, you can use the **Truffle javacript SDK** to dynamically control the appearance of the embed from within your site.
 
 ### Examples
 
