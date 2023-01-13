@@ -38,6 +38,10 @@ localStorage.setItem(
 );
 ```
 
+{% hint style="info" %}
+We're working on a less janky way of adding dev embeds... sit tight and we'll update the docs as soon as we've built it :p
+{% endhint %}
+
 Then refresh the page and you should see your shiny new embed show up on the page!
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Your first embed!!!</p></figcaption></figure>
