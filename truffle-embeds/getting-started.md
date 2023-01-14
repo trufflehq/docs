@@ -1,6 +1,6 @@
 # Getting Started
 
-In this tutorial, we'll be creating what we call an **embed**. Embeds are simply iframes that get rendered on top of YouTube videos and live streams. All you need is the url of an app or site.
+In this tutorial, we'll be creating what we call an **embed**. Embeds are simply iframes that get rendered on top of Youtube videos and live streams. All you need is the url of an app or site.
 
 {% embed url="https://youtu.be/qwyAoMggcjU" %}
 Video tutorial
