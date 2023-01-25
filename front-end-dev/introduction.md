@@ -1,5 +1,13 @@
 # Introduction
 
+{% hint style="info" %}
+**EXPERIMENTAL:** We use this internally, and long-term will continue working on this as a way to build packages that can eventually power creator websites and other products.
+
+For now it's easier to build your frontend separate and just use our embed system and @trufflehq/sdk
+{% endhint %}
+
+****
+
 **We built an easy way for you to use React (and eventually any web framework) to build components that can be embedded in the extension.**
 
 Our front-end dev process should hopefully feel a little bit like using Next.js, just with our own unique spin to best support creators and a broader package ecosystem.
