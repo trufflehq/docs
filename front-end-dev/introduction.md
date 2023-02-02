@@ -6,7 +6,7 @@
 For now it's easier to build your frontend separate and just use our embed system and @trufflehq/sdk
 {% endhint %}
 
-****
+{% embed url="https://www.youtube.com/watch?v=fANjLZtjzog" %}
 
 **We built an easy way for you to use React (and eventually any web framework) to build components that can be embedded in the extension.**
 
