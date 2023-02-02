@@ -9,6 +9,7 @@
 ## Truffle Embeds
 
 * [Getting Started](truffle-embeds/getting-started.md)
+* [Truffle Data in Embeds](truffle-embeds/truffle-data-in-embeds.md)
 
 ## Front-end Dev
 
