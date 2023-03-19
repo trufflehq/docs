@@ -1,56 +1,31 @@
+---
+description: Creating Your First Embed
+---
+
 # Getting Started
 
 In this tutorial, we'll be creating what we call an **embed**. Embeds are simply iframes that get rendered on top of Youtube videos and live streams. All you need is the url of an app or site.
 
-{% embed url="https://youtu.be/qwyAoMggcjU" %}
-Video tutorial
-{% endembed %}
-
 ## Setting Up a Basic Embed
 
-First, make sure you have the truffle.tv extension installed by heading over to [https://truffle.vip/extension](https://truffle.vip/extension).
+First, make sure you have the Truffle extension installed by heading over to [https://truffle.vip/extension](https://truffle.vip/extension).
 
-Go to any Youtube video or stream and open up the dev tools by right-clicking and clicking "inspect", or by hitting the `F12` key on your keyboard.
+Go to any YouTube video or stream and open up the dev tools by right-clicking and clicking "inspect", or by hitting the `F12` key on your keyboard.
 
-Navigate to the "Console" tab, paste the following into the input, and press enter:
+If you have the Truffle browser extension installed you should see the a new tab for the Truffle dev tools!
 
-```javascript
-localStorage.setItem(
-  "truffle:devExtensionMappings",
-  JSON.stringify([
-    {
-      iframeUrl: "<SITE_URL>",
-      domAction: null,
-      defaultLayoutConfigSteps: [
-        { action: "querySelector", value: "body" },
-        { action: "appendSubject", value: null },
-        { action: "useSubject", value: null },
-        {
-          action: "setStyle",
-          value: {
-            position: "fixed",
-            width: "600px",
-            height: "600px",
-            top: "100px",
-            left: "100px",
-            "z-index": 1000,
-          },
-        },
-      ],
-    },
-  ])
-);
-```
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-We're working on a less janky way of adding dev embeds... sit tight and we'll update the docs as soon as we've built it :p&#x20;
+The Truffle dev tools let you easily add and delete embeds!
 
-For now, dev embeds show on every youtube.com page (including inside of their chat iframe)
-{% endhint %}
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Then refresh the page and you should see your shiny new embed show up on the page!
+In the Embed Config table, change http://localhost:8080 to the localhost url of your own application, and then click "Add."\
+This will allow you to test the embed, but getting user info will not work if you don't fill in the Auth token (lets worry about this in [truffle-data-in-embeds.md](truffle-data-in-embeds.md "mention"))
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Your first embed!!!</p></figcaption></figure>
+Refresh the page and you should see your shiny new embed show up on the page!
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Congrats! You've created your first embed. But that's not all... we have more to offer you.
 
@@ -130,4 +105,4 @@ You can also clear the styles on the iframe.
 embed.resetStyles()
 ```
 
-With that, you should have enough flexibility to build some pretty cool shit with the truffle.tv extension!
+With that, you should have enough flexibility to build some pretty cool shit with the Truffle browser extension!

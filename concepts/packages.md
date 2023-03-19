@@ -78,7 +78,7 @@ Notice that in both files we import React from npm.tfl.dev. Standard Node librar
 
 If you're a fan of Ludwig, DrLupo, LilyPichu, or Myth, and you have the truffle.tv browser extension installed, you've probably seen this interface:
 
-![A screenshot of the mogul-menu truffle.tv embed](<../.gitbook/assets/image (1).png>)
+![A screenshot of the mogul-menu truffle.tv embed](<../.gitbook/assets/image (1) (1).png>)
 
 The screenshot above is of our own mogul-menu embed, but any package developer has the power to create one! Using truffle.tv embeds, you can easily add features to YouTube or Twitch. To learn more, you can read the docs on [truffle.tv embeds](broken-reference)
 
