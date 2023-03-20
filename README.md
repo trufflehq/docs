@@ -5,6 +5,7 @@ description: Want to know what you can build and how to build it? You're in the 
 # Overview
 
 ## Welcome!
+This is just a backup of all the old docs so we can bring them back from the dead if needed 
 
 Welcome to the Truffle Developer Platform - we’re stoked you’re here!
 
