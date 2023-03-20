@@ -14,7 +14,7 @@ Go to any YouTube video or stream and open up the dev tools by right-clicking an
 
 If you have the Truffle browser extension installed you should see the a new tab for the Truffle dev tools!
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 The Truffle dev tools let you easily add and delete embeds!
 
@@ -25,7 +25,7 @@ This will allow you to test the embed, but getting user info will not work if yo
 
 Refresh the page and you should see your shiny new embed show up on the page!
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Congrats! You've created your first embed. But that's not all... we have more to offer you.
 
