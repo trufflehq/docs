@@ -1,47 +1,108 @@
 ---
-description: Want to know what you can build and how to build it? You're in the right place
+description: Creating Your First Embed
 ---
 
-# Overview
+# Getting Started
 
-## Welcome!
+In this tutorial, we'll be creating what we call an **embed**. Embeds are simply iframes that get rendered on top of Youtube videos and live streams. All you need is the url of an app or site.
 
-Welcome to the Truffle Developer Platform - we’re stoked you’re here!
+## Setting Up a Basic Embed
 
-We’re building out the infrastructure that’ll make it easy for you to build cool shit for creators :)
+First, make sure you have the Truffle extension installed by heading over to [https://truffle.vip/extension](https://truffle.vip/extension).
 
-**Want to jump straight to building? Head over to** [get-started.md](the-basics/get-started.md "mention")!
+Go to any YouTube video or stream and open up the dev tools by right-clicking and clicking "inspect", or by hitting the `F12` key on your keyboard.
 
-## "What can I build?"
+If you have the Truffle browser extension installed you should see the a new tab for the Truffle dev tools!
 
-**To start, we're making it easy for you to build "apps" (we call them "packages") that creators can use in their stream.** Think of a Truffle package as a more powerful Twitch extension, that works for YouTube and Twitch streamers.
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-You'll be able to charge for these packages (if you want!). And in the early days we'll work on other incentives like bounties (ideas we know creators want, that we'll pay to have built)
+The Truffle dev tools let you easily add and delete embeds!
 
-## "How do I build?"
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-We have 3 toolsets you can use to build these packages:
+In the Embed Config table, change http://localhost:8080 to the localhost url of your own application, and then click "Add."\
+This will allow you to test the embed, but getting user info will not work if you don't fill in the Auth token (lets worry about this in [truffle-data-in-embeds.md](truffle-embeds/truffle-data-in-embeds.md "mention"))
 
-#### 1) Frontend framework
+Refresh the page and you should see your shiny new embed show up on the page!
 
-This is a simple frontend framework that allows you to write components in React and deploy them to Truffle's hosting infrastructure.
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-It's complete with file-system-based routing, a dev server, and the ability to use React (and eventually other frameworks like Vue, Svelte, etc...)
+Congrats! You've created your first embed. But that's not all... we have more to offer you.
 
-Your frontend code will be able to embed itself into YouTube and Twitch livestreams, and control various parts of the page (to be able to position your element, tweak styles on chat messages, etc...)
+## Manipulating the Embed
 
-#### 2) GraphQL API
+If you simply want to embed a static page into a Youtube video or live stream page, then following the above instructions may be enough for you. If you want to go one step further, you can use the **Truffle javacript SDK** to dynamically control the appearance of the embed from within your site.
 
-This will let you hook into our backend for working with users, collectibles, channel points, roles, permissions, etc...
+### Examples
 
-In an ideal world most packages will be built without needing to build your own custom backend. Though it may take some time for the API to become flexible enough for all types of ideas.
+If you're ready to jump in and read some code, check out our [examples](https://github.com/trufflehq/truffle-packages/tree/0b7189daa625ac339e872fea19020ee26eb1c266/npm/sdk/examples).
 
-#### 3) Edge Functions
+### Installing the SDK
 
-For anything you can't achieve with our GraphQL API, you can use our hosted Edge Functions (aka serverless). We host these so you don't have to pay for hosting, and tie everything together with our truffle-cli
+If you're using a frontend framework like [React](reference/mycelium-api/models/economyaction/) or [Vue](https://vuejs.org/), you can simply run npm install.
 
+```shell
+npm install @trufflehq/sdk
+```
 
+Or if you're a yarn user
 
-{% hint style="info" %}
-The developer platform and these docs are still in a very early stage of development. Please let us know where we can improve!
-{% endhint %}
+```shell
+yarn add @trufflehq/sdk
+```
+
+Then import the embed object like so:
+
+```javascript
+import { embed } from '@trufflehq/sdk'
+```
+
+If you're not using a framework or a module bundler, you can simply import it as a module directly in a script.
+
+```html
+<script type="module">
+   import { embed } from 'https://npm.tfl.dev/@trufflehq/sdk'
+   
+   // ...
+</script>
+```
+
+### Using the SDK
+
+Now that you have the SDK imported, you can manipulate the embed.
+
+You can set the size using css units.
+
+```javascript
+embed.setSize("500px", "500px")
+```
+
+You can set the position (also using css units).
+
+```javascript
+embed.setPosition("25%", "25%")
+```
+
+You can also set the visibility.
+
+```javascript
+embed.hide()
+embed.show()
+embed.setVisibility(true)
+```
+
+If none of those methods satisfy your needs, you can set custom css styles on the iframe.
+
+```javascript
+embed.setStyles({
+  border: "5px solid red"
+})
+```
+
+You can also clear the styles on the iframe.
+
+```javascript
+embed.resetStyles()
+```
+
+With that, you should have enough flexibility to build some pretty cool shit with the Truffle browser extension!

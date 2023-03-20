@@ -1,50 +1,12 @@
 # Table of contents
 
-## The Basics
-
-* [Overview](README.md)
-* [Getting Started](the-basics/get-started.md)
-* [Building for creators](the-basics/building-for-creators.md)
-
 ## Truffle Embeds
 
-* [Getting Started](truffle-embeds/getting-started.md)
+* [Getting Started](README.md)
 * [Truffle Data in Embeds](truffle-embeds/truffle-data-in-embeds.md)
-
-## Front-end Dev
-
-* [Introduction](front-end-dev/introduction.md)
-* [Interacting with our backend](front-end-dev/interacting-with-our-backend.md)
-* [Importing code (eg npm)](front-end-dev/importing-code-eg-npm.md)
-* [Integrating with streams (Embeds)](front-end-dev/truffle.tv-embeds/README.md)
-  * [Using the Mutation Observer](front-end-dev/truffle.tv-embeds/using-the-mutation-observer.md)
-* [Examples](front-end-dev/examples.md)
-
-## Mycelium API
-
-* [Introduction](mycelium-api/introduction.md)
-* [API Keys](mycelium-api/api-keys.md)
-* [Features](mycelium-api/features/README.md)
-  * [Game Mechanics](mycelium-api/features/game-mechanics/README.md)
-    * [Collectibles](mycelium-api/features/game-mechanics/collectibles.md)
-    * [Powerups](mycelium-api/features/game-mechanics/powerups.md)
-    * [Counters](mycelium-api/features/game-mechanics/counters.md)
-    * [Battle Pass](mycelium-api/features/game-mechanics/battle-pass.md)
-  * [User interaction](mycelium-api/features/user-interaction/README.md)
-    * [Polls](mycelium-api/features/user-interaction/polls.md)
-    * [Alerts](mycelium-api/features/user-interaction/alerts.md)
-    * [Forms](mycelium-api/features/user-interaction/forms.md)
-    * [Payments](mycelium-api/features/user-interaction/payments.md)
-  * [Events](mycelium-api/features/events.md)
-  * [Actions](mycelium-api/features/actions.md)
-
-## Truffle Edge Functions
-
-* [Introduction](truffle-functions/introduction.md)
 
 ## Concepts
 
-* [Design decisions](concepts/design-decisions.md)
 * [Orgs](concepts/orgs.md)
 * [Packages](concepts/packages.md)
   * [How packages are used](front-end-dev/how-packages-are-used.md)
@@ -88,3 +50,7 @@
       * [// TODO ChatMessage](reference/mycelium-api/models/todo/todo-chatmessage.md)
       * [// TODO: Comment](reference/mycelium-api/models/todo/todo-comment.md)
       * [// TODO: Reaction](reference/mycelium-api/models/todo/todo-reaction.md)
+
+## Old Examples
+
+* [Examples](old-examples/examples.md)

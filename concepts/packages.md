@@ -4,6 +4,8 @@ description: Packages are what makes Truffle useful! Read on to learn about how 
 
 # Packages
 
+## Disclaimer: Some of this information may be outdated
+
 ## Overview
 
 At the most basic level, a package is simply a container that implements a feature or collection of features that a creator can use with their Org. You can think of them like an npm package. Packages create features by
@@ -91,7 +93,7 @@ Actions provide a way for other parts of the Truffle ecosystem to hook into your
 3. Google PubSub actions allow you to notify a Google PubSub topic.
 4. Workflow actions allow you to execute a sequence of other actions.
 
-To trigger an action, you'll use a reference to it that will look like `@coolorg/coolpackage@latest/_Action/coolaction`. To learn more about actions, you can read the docs on [Actions](../mycelium-api/features/actions.md).
+To trigger an action, you'll use a reference to it that will look like `@coolorg/coolpackage@latest/_Action/coolaction`. To learn more about actions, you can read the docs on [Actions](broken-reference).
 
 ### Creating and subscribing to event topics
 
@@ -130,7 +132,7 @@ Inside your package, you can create a subscription to the `minecraft-item-redeem
 }
 ```
 
-In the snippet above, `eventTopicPath` specifies which topic the subscription is listening to, and the `actionRel` specifies which action is going to get executed when the topic receives an event. We also provide `runtimeData` that lets us customize the behavior of specific actions. In this case, we specify `endpoint` for the webhook action. To learn more, you can read the docs on [Events](../mycelium-api/features/events.md).
+In the snippet above, `eventTopicPath` specifies which topic the subscription is listening to, and the `actionRel` specifies which action is going to get executed when the topic receives an event. We also provide `runtimeData` that lets us customize the behavior of specific actions. In this case, we specify `endpoint` for the webhook action. To learn more, you can read the docs on [Events](broken-reference).
 
 ## Going further
 

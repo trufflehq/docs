@@ -10,7 +10,7 @@ The final product will be a simple embed, displaying the streamer's org name and
 
 ## Set Up&#x20;
 
-You should have successfully created a Truffle Embed with React and Typescript following the instructions on the [getting-started.md](getting-started.md "mention") page.
+You should have successfully created a Truffle Embed with React and Typescript following the instructions on the [..](../ "mention") page.
 
 Now that you've gotten your embed up and running, lets install the Truffle CLI so we can get an Org, Package, and Auth Token.
 
