@@ -25,7 +25,7 @@ The Truffle dev tools let you easily add and delete embeds!
 In the Embed Config table, change http://localhost:8080 to the localhost url of your own application, and then click "Add."\
 This will allow you to test the embed, but getting user info will not work if you don't fill in the Auth token (lets worry about this in [truffle-data-in-embeds.md](truffle-embeds/truffle-data-in-embeds.md "mention"))
 
-Refresh the page and you should see your shiny new embed show up on the page!
+Refresh the page and you should see your shiny new embed show up below the video's description!
 
 <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
