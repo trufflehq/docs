@@ -6,6 +6,8 @@ description: Creating Your First Embed
 
 In this tutorial, we'll be creating what we call an **embed**. Embeds are simply iframes that get rendered on top of Youtube videos and live streams. All you need is the url of an app or site.
 
+{% embed url="https://youtu.be/6umrC-oLpow" %}
+
 ## Setting Up a Basic Embed
 
 First, make sure you have the Truffle extension installed by heading over to [https://truffle.vip/extension](https://truffle.vip/extension).
