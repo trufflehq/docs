@@ -45,7 +45,7 @@ truffle-cli org create fun-org-name
 Embeds are stored in packages so next step is to create a package
 
 ```bash
-truffle-cli package create fun-package-name
+truffle-cli create fun-package-name
 cd fun-package-name
 truffle-cli deploy
 truffle-cli pt # alias for truffle-cli get-package-user-access-token
