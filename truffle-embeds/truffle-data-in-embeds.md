@@ -14,6 +14,8 @@ You should have successfully created a Truffle Embed with React and Typescript f
 
 Now that you've gotten your embed up and running, lets install the Truffle CLI so we can get an Org, Package, and Auth Token.
 
+{% embed url="https://youtu.be/4n1oGctkxnQ" %}
+
 ### Installing Truffle-Cli
 
 ```bash
@@ -62,6 +64,8 @@ Now you should be able to get user information with the Truffle SDK!
 ## Getting Data From the Truffle SDK
 
 First we are going to get data from the SDK the hard way using [ECMA Observables](https://github.com/tc39/proposal-observable), then show the easier method using [Legend-State](https://legendapp.com/open-source/state/)&#x20;
+
+{% embed url="https://youtu.be/b66oRCJ9lgc" %}
 
 ### Importing the SDK
 
