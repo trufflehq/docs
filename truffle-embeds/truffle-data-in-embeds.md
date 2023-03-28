@@ -160,6 +160,7 @@ Now we can simple call `.get()` and use the value in the JSX!
 
 ```tsx
 return (
+    <div className="App">
       <div>Org: {org.name.get()}</div>
       <div>Org ID: {orgId}</div>
       <h2>Welcome, {orgUser.id.get()}</h2>
@@ -209,9 +210,10 @@ function App() {
       }
     })
     return () => subscription.unsubscribe()
-  })
+  }, [])
 
   return (
+    <div className="App">
       <div>Org: {org.name.get()}</div>
       <div>Org ID: {orgId}</div>
       <h2>Welcome, {orgUser.id.get()}</h2>
