@@ -109,7 +109,7 @@ useEffect(() => {
     complete: () => {}
   })
   return () => subscription.unsubscribe()
-})
+}, [])
 ```
 
 This is all we need to use `orgId` in the app
