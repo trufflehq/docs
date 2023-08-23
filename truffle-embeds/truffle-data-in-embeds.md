@@ -22,6 +22,12 @@ Now that you've gotten your embed up and running, lets install the Truffle CLI s
 npm install -g @trufflehq/cli
 ```
 
+If you are using [Volta](https://volta.sh/) use this command
+
+```
+volta install @trufflehq/cli
+```
+
 if you previously installed the CLI, make sure `truffle-cli --version` is 0.3.3 or higher
 
 ### Creating User, Org, and Package: Getting an Access Token
