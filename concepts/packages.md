@@ -16,7 +16,7 @@ At the most basic level, a package is simply a container that implements a featu
 * Providing **embeds** that can be used inside of the truffle.tv browser extension.
 * Interacting with the truffle's **Mycelium API**.
 * Creating **actions** that can be triggered by core Truffle platform features or other packages.
-* Creating and subscribing to **event topics** generated **** from the Truffle platform or other packages.&#x20;
+* Creating and subscribing to **event topics** generated from the Truffle platform or other packages.&#x20;
 
 ### Creating sites
 

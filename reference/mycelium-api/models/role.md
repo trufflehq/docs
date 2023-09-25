@@ -99,7 +99,7 @@ query RoleConnectionQuery ($input: RoleConnectionInput, $first: Int, $after: Str
 }
 ```
 
-***
+
 
 `OrgUser.roleConnection`
 
@@ -107,21 +107,21 @@ Resolves a list of roles for an org user
 
 OrgUser
 
-***
+
 
 `OrgUserInvite.roleConnection`
 
 Resolves a list of roles tied to an org user invite
 
-***
+
 
 `Permission.role`
 
 resolves a role for a permission. This is used to get a specific role tied to a permission
 
-***
 
-***
+
+
 
 ### Mutations
 
@@ -204,7 +204,7 @@ mutation RoleUpsert ($input: RoleUpsertInput!) {
 }
 ```
 
-***
+
 
 `roleSetRanks`
 
@@ -268,7 +268,7 @@ mutation RoleSetRanks ($input: RoleSetRanksInput!) {
 }
 ```
 
-***
+
 
 `roleDeleteById`
 
@@ -346,4 +346,3 @@ mutation RoleDeleteById ($input: RoleDeleteByIdInput!) {
 }
 ```
 
-***

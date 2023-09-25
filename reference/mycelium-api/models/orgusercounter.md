@@ -77,7 +77,7 @@ query OrgUserCounterQuery ($input: OrgUserCounterInput!) {
 }
 ```
 
-***
+
 
 `orgUserCounterConnection`
 
@@ -163,7 +163,7 @@ query OrgUserCounterConnectionQuery ($input: OrgUserCounterConnectionInput, $fir
 }
 ```
 
-***
+
 
 `SeasonPass.orgUserCounter`
 
@@ -177,7 +177,7 @@ Resolves a user's progress in a season pass (XP).
 
 SeasonPass
 
-***
+
 
 `SeasonPass.orgUserStats`
 
@@ -189,9 +189,9 @@ Resolves a set of season pass stats for the user
 | -------- | ---- | ----------------------------------------------- |
 | userId   | ID   | ID of the user to resolve season pass stats for |
 
-***
 
-***
+
+
 
 ### Mutations
 
@@ -262,7 +262,7 @@ mutation OrgUserCounterIncrementQuery ($input: OrgUserCounterIncrementInput) {
 }
 ```
 
-***
+
 
 ### Mutations
 

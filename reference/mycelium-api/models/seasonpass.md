@@ -237,7 +237,7 @@ query SeasonPassQuery ($input: SeasonPassInput!) {
 }
 ```
 
-***
+
 
 `seasonPassConnection`
 
@@ -474,7 +474,7 @@ query SeasonPassConnectionQuery ($first: Int, $after: String, $last: Int, $befor
 }
 ```
 
-***
+
 
 `OrgUser.seasonPass`
 
@@ -482,7 +482,7 @@ Resolves a season pass for an org user. This is usually used to get an org userâ
 
 OrgUser
 
-***
+
 
 `Connection.seasonPass`
 
@@ -490,15 +490,15 @@ Resolves a season pass for a connection. This is usually used to resolve season 
 
 Connection
 
-***
+
 
 `YoutubeChannel.seasonPass`
 
 Resolves a season pass for a YouTube channel. This is used to fetch the season pass to render inside of the YouTube emoji picker
 
-***
 
-***
+
+
 
 ### Mutations
 
@@ -595,4 +595,3 @@ mutation SeasonPassUpsert ($input: SeasonPassUpsertInput!) {
 }
 ```
 
-***

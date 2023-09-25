@@ -119,7 +119,7 @@ query EconomyTransactionConnectionQuery ($input: EconomyTransactionConnectionInp
 }
 ```
 
-***
+
 
 `OrgUserCounter.economyTransactionConnection`
 
@@ -127,15 +127,15 @@ Returns a paginated list of economy transactions. This is typically used to fetc
 
 OrgUserCounter
 
-***
+
 
 `Donation.economyTransaction`
 
 Returns a specific economy transaction for a donation.
 
-***
 
-***
+
+
 
 ### Mutations
 
@@ -217,4 +217,3 @@ mutation EconomyTransactionCreate ($input: EconomyTranscationCreateInput!) {
 }
 ```
 
-***

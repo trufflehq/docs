@@ -10,9 +10,9 @@ resolves a paginated list of key values for an OrgUser.
 
 OrgUser
 
-***
 
-***
+
+
 
 ### Mutations
 
@@ -91,4 +91,3 @@ mutation KeyValueUpsert ($input: KeyValueUpsertInput!) {
 }
 ```
 
-***

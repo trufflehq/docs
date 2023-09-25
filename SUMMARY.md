@@ -1,9 +1,11 @@
 # Table of contents
 
-## Truffle Embeds
+## Truffle Apps <a href="#truffle-embeds" id="truffle-embeds"></a>
 
-* [Getting Started](README.md)
-* [Truffle Data in Embeds](truffle-embeds/truffle-data-in-embeds.md)
+* [What Are Truffle Apps?](README.md)
+* [Getting Started](truffle-embeds/getting-started.md)
+* [Creating Apps](truffle-embeds/creating-apps.md)
+* [Truffle Data in Apps](truffle-embeds/truffle-data-in-apps.md)
 
 ## Concepts
 

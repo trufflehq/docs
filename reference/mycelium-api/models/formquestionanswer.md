@@ -85,7 +85,7 @@ query GetFormQuestionAnswer($input: FormQuestionAnswerInput!) {
 }
 ```
 
-***
+
 
 `formQuestionAnswerConnection`
 
@@ -190,7 +190,7 @@ query GetFormQuestionAnswers($input: FormQuestionAnswerConnectionInput!) {
 }
 ```
 
-***
+
 
 ### Mutations
 
@@ -272,7 +272,7 @@ mutation UpsertFormQuestionAnswer($input: FormQuestionAnswerUpsertInput!) {
 }
 ```
 
-***
+
 
 `formQuestionAnswerBatchUpsert`
 
@@ -386,7 +386,7 @@ mutation BatchUpsertFormQuestionAnswer(
 }
 ```
 
-***
+
 
 `formQuestionAnswerDeleteById`
 
@@ -456,4 +456,3 @@ mutation DeleteFormQuestionAnswer($input: FormQuestionAnswerDeleteByIdInput!) {
 }
 ```
 
-***

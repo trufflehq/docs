@@ -11,6 +11,6 @@
 
 #### Resolvers
 
-***
+
 
 #### Mutations

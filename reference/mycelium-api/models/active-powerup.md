@@ -93,13 +93,13 @@ query ActivePowerupConnectionQuery ($first: Int, $after: String, $last: Int, $be
 }
 ```
 
-***
+
 
 `Article.activePowerupConnection`
 
 resolves a list of active powerups applied to an article.
 
-***
+
 
 `OrgUser.activePowerupConnection`
 
@@ -107,7 +107,7 @@ resolves a list of active powerups activated by an org user. This is usually use
 
 OrgUser
 
-***
+
 
 ### Mutations
 

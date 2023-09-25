@@ -2,17 +2,17 @@
 description: Use Truffle CLI to get an access token and get user information
 ---
 
-# Truffle Data in Embeds
+# Truffle Data in Apps
 
-This tutorial will teach you how to create a Truffle Embed that can read and display user information using React and the Truffle SDK.&#x20;
+This tutorial will teach you how to create a Truffle app that can read and display user information using React and the Truffle SDK.&#x20;
 
-The final product will be a simple embed, displaying the streamer's org name and image as well as the user’s display name and avatar image.
+The final product will be a simple app, displaying the streamer's org name and image as well as the user’s display name and avatar image.
 
 ## Set Up&#x20;
 
-You should have successfully created a Truffle Embed with React and Typescript following the instructions on the [..](../ "mention") page.
+You should have successfully created a Truffle App with React and Typescript following the instructions on the [creating-apps.md](creating-apps.md "mention") page.
 
-Now that you've gotten your embed up and running, lets install the Truffle CLI so we can get an Org, Package, and Auth Token.
+Now that you've gotten your app embed up and running, lets install the Truffle CLI so we can get an Org, Package, and Auth Token.
 
 {% embed url="https://youtu.be/4n1oGctkxnQ" %}
 
@@ -24,7 +24,7 @@ npm install -g @trufflehq/cli
 
 If you are using [Volta](https://volta.sh/) use this command
 
-```
+```bash
 volta install @trufflehq/cli
 ```
 
@@ -38,7 +38,7 @@ First, create a new user with&#x20;
 truffle-cli user create
 ```
 
-Type in an email and password, they can be arbitrary
+Type in an email and password, they can be arbitrary and are created on our staging servers
 
 Now create an org, and name it whatever you want
 
@@ -48,9 +48,9 @@ truffle-cli org create fun-org-name
 
 `truffle-cli whoami` will show you user info and org id
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
-Embeds are stored in packages so next step is to create a package
+Now create your app with `truffle-cli create`
 
 ```bash
 truffle-cli create fun-package-name
@@ -207,7 +207,7 @@ const user = fromSpecObservable(userClient.observable);
 const orgUser = fromSpecObservable(userClient.orgUser.observable);
 const org = fromSpecObservable(orgClient.observable);
 
-function App() {
+const App = () => {
   const [orgId, setOrgId] = useState<string | undefined>(undefined);
   useEffect(() => {
     const subscription = orgClient.observable.subscribe({

@@ -6,7 +6,7 @@ description: A topic that is emitted to signify an event has happened inside of 
 
 ### Resolvers
 
-***
+
 
 ### Mutations
 
@@ -98,4 +98,3 @@ mutation EventTopicUpsert ($input: EventTopicUpsertInput!) {
 }
 ```
 
-***

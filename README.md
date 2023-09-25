@@ -1,110 +1,53 @@
 ---
-description: Creating Your First Embed
+description: An brief introduction to Truffle and Truffle apps
 ---
 
-# Getting Started
+# What Are Truffle Apps?
 
-In this tutorial, we'll be creating what we call an **embed**. Embeds are simply iframes that get rendered on top of Youtube videos and live streams. All you need is the url of an app or site.
+**Introduction**
 
-{% embed url="https://youtu.be/6umrC-oLpow" %}
+Welcome to the Truffle Developer Platform docs! If you are looking at these docs, you probably want an easy cross-platform way to create interactive experiences for creators and their viewers.
 
-## Setting Up a Basic Embed
+**What is Truffle?**
 
-First, make sure you have the Truffle extension installed by heading over to [https://truffle.vip/extension](https://truffle.vip/extension).
+Truffle is the company behind the Truffle browser extension. Our extension, originally Mogul.TV (built by Otto) was built for Ludwig to help make YouTube better for livestreamers. However, since then we have made the extension much more powerful so that 3rd party developers like you can build a killer app and deploy to any streamer on any platform.
 
-Go to any YouTube video or stream and open up the dev tools by right-clicking and clicking "inspect", or by hitting the `F12` key on your keyboard.
+**What is a Truffle App?**
 
-If you have the Truffle browser extension installed you should see the a new tab for the Truffle dev tools!
+Truffle apps are web apps that get iframed and displayed to the end users. You choose your favorite frontend framework and your own backend, then build a web app that talks to the Truffle browser extension through the Truffle SDK.&#x20;
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+**Which platforms does Truffle support?**
 
-The Truffle dev tools let you easily add and delete embeds!
+Truffle currently only supports Twitch and YouTube for 3rd party apps. We're exploring expansions to other platforms like Kick or any other site, based on community interest (so reach out if you are interested).
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+The Truffle browser extension is currently only supported on Firefox and Chromium based browsers.
 
-In the Embed Config table, change http://localhost:8080 to the localhost url of your own application, and then click "Add."\
-This will allow you to test the embed, but getting user info will not work if you don't fill in the Auth token (lets worry about this in [truffle-data-in-embeds.md](truffle-embeds/truffle-data-in-embeds.md "mention"))
+**How Can End Users Interact with My App?**
 
-Refresh the page and you should see your shiny new embed show up below the video's description!
+Truffle apps can consist of one or more embeds, depending on how you want your app to interface with the viewers, mods, or streamers.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+* **Windowed Embeds**: Shown as icons in the Truffle sidebar and offer a less intrusive experience. Users can click on the icon to pop open a draggable iFrame window with your app content.
+* **Page Embeds**: Directly injected onto the Twitch or YouTube page, allowing for a more integrated experience with the video or stream.
+* **Quick Action Embeds:** Streamers can interact with Truffle apps using the Quick Action Interface, which you should hook up to trigger events for viewers like starting a prediction.
 
-Congrats! You've created your first embed. But that's not all... we have more to offer you.
+**Choosing a Development Framework**
 
-## Manipulating the Embed
+While the Truffle SDK does support most web development frameworks ask for support in our discord if something breaks), we recommend using Vite and React, if you aren't sure what to choose as most of our tutorials will use that for the tech stack.
 
-If you simply want to embed a static page into a Youtube video or live stream page, then following the above instructions may be enough for you. If you want to go one step further, you can use the **Truffle javacript SDK** to dynamically control the appearance of the embed from within your site.
 
-### Examples
 
-If you're ready to jump in and read some code, check out our [examples](https://github.com/trufflehq/truffle-packages/tree/0b7189daa625ac339e872fea19020ee26eb1c266/npm/sdk/examples).
+Follow our getting started guide to build your first App!
 
-### Installing the SDK
+{% content-ref url="truffle-embeds/getting-started.md" %}
+[getting-started.md](truffle-embeds/getting-started.md)
+{% endcontent-ref %}
 
-If you're using a frontend framework like [React](reference/mycelium-api/models/economyaction/) or [Vue](https://vuejs.org/), you can simply run npm install.
+##
 
-```shell
-npm install @trufflehq/sdk
-```
 
-Or if you're a yarn user
 
-```shell
-yarn add @trufflehq/sdk
-```
 
-Then import the embed object like so:
 
-```javascript
-import { embed } from '@trufflehq/sdk'
-```
 
-If you're not using a framework or a module bundler, you can simply import it as a module directly in a script.
 
-```html
-<script type="module">
-   import { embed } from 'https://npm.tfl.dev/@trufflehq/sdk'
-   
-   // ...
-</script>
-```
-
-### Using the SDK
-
-Now that you have the SDK imported, you can manipulate the embed.
-
-You can set the size using css units.
-
-```javascript
-embed.setSize("500px", "500px")
-```
-
-You can set the position (also using css units).
-
-```javascript
-embed.setPosition("25%", "25%")
-```
-
-You can also set the visibility.
-
-```javascript
-embed.hide()
-embed.show()
-embed.setVisibility(true)
-```
-
-If none of those methods satisfy your needs, you can set custom css styles on the iframe.
-
-```javascript
-embed.setStyles({
-  border: "5px solid red"
-})
-```
-
-You can also clear the styles on the iframe.
-
-```javascript
-embed.resetStyles()
-```
-
-With that, you should have enough flexibility to build some pretty cool shit with the Truffle browser extension!
+\
