@@ -16,18 +16,22 @@ Go to any YouTube video or stream and open up the dev tools by right-clicking an
 
 If you have the Truffle browser extension installed you should see an option for the Truffle dev tools!
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The Truffle dev tools let you easily add and delete embeds!
 
 <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-In the Embed Config table, change http://localhost:8080 to the localhost url of your own application, and then click "Add."\
+In the Embed Config table, change http://localhost:8080 to the localhost url of your own application, and then click "Add."
+
+This embed config is documented here: [embed-config.md](../reference/embed-config.md "mention")
+
+\
 This will allow you to test the embed, but getting user info will not work if you don't fill in the Auth token (lets worry about this in [truffle-data-in-apps.md](truffle-data-in-apps.md "mention"))
 
 Refresh the page and you should see your shiny new embed show up below the video's description!
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Congrats! You've created your first embed. But that's not all... we have more to offer you.
 

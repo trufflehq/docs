@@ -8,6 +8,8 @@ description: An brief introduction to Truffle and Truffle apps
 
 Welcome to the Truffle Developer Platform docs! If you are looking at these docs, you probably want an easy cross-platform way to create interactive experiences for creators and their viewers.
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Snuffle hacking the mainframe</p></figcaption></figure>
+
 **What is Truffle?**
 
 Truffle is the company behind the Truffle browser extension. Our extension, originally Mogul.TV (built by Otto) was built for Ludwig to help make YouTube better for livestreamers. However, since then we have made the extension much more powerful so that 3rd party developers like you can build a killer app and deploy to any streamer on any platform.

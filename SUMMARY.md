@@ -15,6 +15,7 @@
 
 ## Reference
 
+* [Embed Config](reference/embed-config.md)
 * [Mycelium API](reference/mycelium-api/README.md)
   * [Directives](reference/mycelium-api/directives/README.md)
     * [@auth](reference/mycelium-api/directives/auth.md)
