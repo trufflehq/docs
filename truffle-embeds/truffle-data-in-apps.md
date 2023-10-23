@@ -28,7 +28,7 @@ If you are using [Volta](https://volta.sh/) use this command
 volta install @trufflehq/cli
 ```
 
-if you previously installed the CLI, make sure `truffle-cli --version` is 0.3.3 or higher
+if you previously installed the CLI, make sure `truffle-cli --version` is 0.4.0 or higher
 
 ### Creating User, Org, and Package: Getting an Access Token
 
