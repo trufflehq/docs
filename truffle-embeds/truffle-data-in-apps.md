@@ -58,7 +58,7 @@ truffle-cli app install @fun-org-name/fun-package-name
 truffle-cli app get-token @fun-org-name/fun-package-name
 ```
 
-The `truffle-cli pt` command will return a very long access token string. You use it in an embed by passing it in through the Truffle Devtools.
+The `truffle-cli app get-token` command will return a very long access token string. You use it in an embed by passing it in through the Truffle Devtools.
 
 ![](<../.gitbook/assets/image (3).png>)
 
