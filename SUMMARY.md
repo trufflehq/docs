@@ -6,6 +6,7 @@
 * [Getting Started](truffle-embeds/getting-started.md)
 * [Creating Apps](truffle-embeds/creating-apps.md)
 * [Truffle Data in Apps](truffle-embeds/truffle-data-in-apps.md)
+* [Managing Apps](truffle-embeds/managing-apps.md)
 
 ## Concepts
 
