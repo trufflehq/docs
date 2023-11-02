@@ -40,7 +40,7 @@ Define the `windowProps` property to have your embed show up in the sidebar!
       height: number;
     }
     ```
-* `isResizeable` - boolean; true means that users can resize your embed however they please
+* `isResizable` - boolean; true means that users can resize your embed however they please
 *   `resizeBounds` - optional, an object representing the smallest and largest dimensions that a user can scale the embed window
 
     ```typescript
