@@ -14,15 +14,16 @@ This embed config is the same config that you can see inside the Truffle dev too
 
 
 
-| value of ContentPageType | Where does the embed display                                |
-| ------------------------ | ----------------------------------------------------------- |
-| youtubeLiveNow           | youtube streams that are currently live                     |
-| youtubeLiveUpcoming      | scheduled youtube livestreams                               |
-| youtubeLiveVod           | vods for youtube livestreams                                |
-| youtubeVideo             | youtube videos                                              |
-| youtube                  | any youtube video, livestream, scheduled livestream, or vod |
-| twitch                   | a streamer's twitch page                                    |
-| quickActions             | inside a creators quick action menu                         |
+| value of ContentPageType | Where does the embed display                                                |
+| ------------------------ | --------------------------------------------------------------------------- |
+| youtubeLiveNow           | youtube streams that are currently live                                     |
+| youtubeLiveUpcoming      | scheduled youtube livestreams                                               |
+| youtubeLiveVod           | vods for youtube livestreams                                                |
+| youtubeVideo             | youtube videos                                                              |
+| youtube                  | any youtube video, livestream, scheduled livestream, or vod                 |
+| twitch                   | a streamer's twitch page                                                    |
+| quickActions             | inside a creators quick action menu                                         |
+| appManagement            | creator dashboard -> apps; it will appear when a creator clicks on your app |
 
 #### Windowed Embeds
 
