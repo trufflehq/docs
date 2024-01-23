@@ -14,8 +14,6 @@ You should have successfully created a Truffle App with React and Typescript fol
 
 Now that you've gotten your app embed up and running, lets install the Truffle CLI so we can get an Org, Package, and Auth Token.
 
-{% embed url="https://youtu.be/4n1oGctkxnQ" %}
-
 ### Installing Truffle-Cli
 
 ```bash
@@ -78,15 +76,16 @@ For this tutorial we will use the following:
 
 ```javascript
 import {
-  org as orgClient,
-  user as userClient,
-  getSrcByImageObj,
+  getOrgClient,
+  getOrgUserClient,
+  initTruffleApp,
 } from "@trufflehq/sdk";
+
 ```
 
-`user` and `org` both give us ECMA Observables
+getOrgUserClient and getOrgClient both can give us ECMA Observables
 
-`getSrcByImageObj` will be useful later when we want to get the avatar images
+`getSrcByImageObj` can be used to get avatar images
 
 ### Using ECMA Observables
 
@@ -155,11 +154,9 @@ import { fromSpecObservable } from "./from-spec-observable";
 
 Then we can use this function to convert all the observables we imported from the Truffle SDK
 
-```tsx
-const org = fromSpecObservable(orgClient.observable);
-const user = fromSpecObservable(userClient.observable);
-const orgUser = fromSpecObservable(userClient.orgUser.observable);
-```
+<pre class="language-tsx"><code class="lang-tsx"><strong>const orgUser = fromSpecObservable(getOrgUserClient().observable);
+</strong>const org = fromSpecObservable(getOrgClient().observable);
+</code></pre>
 
 Now we can simple call `.get()` and use the value in the JSX!
 
@@ -194,44 +191,40 @@ Here is the complete react component for reference:
 ```tsx
 import "./App.css";
 import {
-  org as orgClient,
-  user as userClient,
-  getSrcByImageObj,
+  // getUserClient,
+  getOrgClient,
+  getOrgUserClient,
+  initTruffleApp,
 } from "@trufflehq/sdk";
 import { observer } from "@legendapp/state/react";
 import { fromSpecObservable } from "./from-spec-observable";
-import { useEffect, useState } from "react";
+const staging = "https://mothertree.staging.bio/graphql";
+const prod = "https://mothertree.truffle.vip/graphql";
+const mothertreeApiUrl = staging || prod;
 
-const user = fromSpecObservable(userClient.observable);
-const orgUser = fromSpecObservable(userClient.orgUser.observable);
-const org = fromSpecObservable(orgClient.observable);
+initTruffleApp({
+  url: mothertreeApiUrl,
+});
+// const user = fromSpecObservable(getUserClient().observable);
+const orgUser = fromSpecObservable(getOrgUserClient().observable);
+const org = fromSpecObservable(getOrgClient().observable);
 
-const App = () => {
-  const [orgId, setOrgId] = useState<string | undefined>(undefined);
-  useEffect(() => {
-    const subscription = orgClient.observable.subscribe({
-      next: (org) => {
-        setOrgId(org.id);
-      }
-    })
-    return () => subscription.unsubscribe()
-  }, [])
-
+export const App = observer(() => {
   return (
     <div className="App">
       <div>Org: {org.name.get()}</div>
-      <div>Org ID: {orgId}</div>
+      <div>Org ID: {org.id.get()}</div>
       <h2>Welcome, {orgUser.id.get()}</h2>
       <ul>
         {orgUser.roleConnection.nodes.get()?.map((role) => (
           <li key={role.id}>{role.slug}</li>
         ))}
       </ul>
-      <img src={getSrcByImageObj(user.avatarImage.get(), { size: "small" })} />
     </div>
   );
-}
+})
 
-export default observer(App);
+
+
 
 ```
