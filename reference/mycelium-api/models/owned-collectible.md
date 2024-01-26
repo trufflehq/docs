@@ -108,7 +108,7 @@ query OwnedCollectibleConnection ($input: OwnedCollectibleConnectionInput) {
 }
 ```
 
-
+***
 
 `Collectible.ownedCollectible`
 
@@ -116,7 +116,7 @@ Resolves an owned collectible from a collectible. This is typically used if you 
 
 Collectible
 
-
+***
 
 `OrgUser.ownedCollectibleConnection`
 
@@ -132,7 +132,7 @@ Resolves a list of all of the owned collectibles for an org user. This is typica
 
 OrgUser
 
-
+***
 
 ### Mutations
 
@@ -198,7 +198,7 @@ Redeems a collectible pack
 }
 ```
 
-
+***
 
 `ownedCollectibleIncrement`
 

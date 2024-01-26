@@ -67,7 +67,7 @@ query OrgUserCounterTypeQuery ($input: OrgUserCounterTypeInput!) {
 }
 ```
 
-
+***
 
 `orgUserCounterTypeConnection`
 
@@ -152,7 +152,7 @@ query OrgUserCounterTypeConnectionQuery ($first: Int, $after: String, $last: Int
 }
 ```
 
-
+***
 
 `EconomyTransaction.amount`
 
@@ -160,7 +160,7 @@ Resolves an OrgUserCounterType as the amount on an EconomyTransaction. This is t
 
 EconomyTransaction
 
-
+***
 
 `SeasonPass.orgUserCounterType`
 
@@ -168,9 +168,9 @@ Resolves an OrgUserCounterType from a season pass. This is usually used to grab 
 
 SeasonPass
 
+***
 
-
-
+***
 
 ### Mutations
 
@@ -248,3 +248,4 @@ mutation OrgUserCounterTypeUpsert ($input: OrgUserCounterTypeUpsertInput) {
 }
 ```
 
+***

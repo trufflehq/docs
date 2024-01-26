@@ -104,7 +104,7 @@ query CollectibleQuery ($input: CollectibleInput!) {
 }
 ```
 
-
+***
 
 `collectibleConnection`
 
@@ -280,7 +280,7 @@ query CollectibleConnectionQuery ($input: CollectibleConnectionInput, $first: In
 }
 ```
 
-
+***
 
 `OwnedCollectible.collectible`
 
@@ -288,7 +288,7 @@ Resolves the collectible associated with an owned collectible. This is typically
 
 [Owned Collectible](https://www.notion.so/Owned-Collectible-4c88e35706044a4397e51a63a1771164)
 
-
+***
 
 #### Mutations
 

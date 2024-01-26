@@ -8,7 +8,7 @@ description: An brief introduction to Truffle and Truffle apps
 
 Welcome to the Truffle Developer Platform docs! If you are looking at these docs, you probably want an easy cross-platform way to create interactive experiences for creators and their viewers.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Snuffle the pig hacking into the mainframe</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Snuffle the pig hacking into the mainframe</p></figcaption></figure>
 
 **What is Truffle?**
 

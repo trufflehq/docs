@@ -27,7 +27,7 @@ This embed config is the same config that you can see inside the Truffle dev too
 
 #### Windowed Embeds
 
-Define the `windowProps` property to have your embed show up in the sidebar!
+Define the `windowProps` property to have your embed show up in the sidebar! (assuming your contentPageType is one that contains youtube or twitch)
 
 `windowProps`  an object containing the following props
 
@@ -36,7 +36,7 @@ Define the `windowProps` property to have your embed show up in the sidebar!
 *   `initialDimensions` - an object representing the default dimensions of your windowed embed
 
     ```typescript
-    {
+    initialDimensions: {
       width: number;
       height: number;
     }
@@ -45,7 +45,7 @@ Define the `windowProps` property to have your embed show up in the sidebar!
 *   `resizeBounds` - optional, an object representing the smallest and largest dimensions that a user can scale the embed window
 
     ```typescript
-    {
+    resizeBounds: {
       minWidth: number; 
       maxWidth: number; 
       minHeight: number;
@@ -53,7 +53,22 @@ Define the `windowProps` property to have your embed show up in the sidebar!
     }
     ```
 
-#### Styles
+Quick Action Embeds
+
+To add a quick action, change the `contentPageType` to `quickActions`
+
+To change the appearance and label of the quick action you can modify  the `tileProps`&#x20;
+
+```typescript
+tileProps: {
+  bgColor: CSS color; //"green" | "#00ff00"
+  title: string;
+}
+```
+
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>What the quick action interface looks like for streamers</p></figcaption></figure>
+
+Styles
 
 `iconUrl` - an icon for your embed, we recommend using SVGs
 

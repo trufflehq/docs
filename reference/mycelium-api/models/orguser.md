@@ -92,7 +92,7 @@ query OrgUserQuery ($input: OrgUserInput!) {
 }
 ```
 
-
+***
 
 `orgUserConnection`
 
@@ -210,37 +210,37 @@ query OrgUserConnectionQuery ($input: OrgUserConnectionInput!) {
 }
 ```
 
-
+***
 
 `Org.orgUser`
 
 resolves an org user for the logged in user for an org. **Requires an access token to resolve.**
 
-
+***
 
 `MeUser.orgUsers`
 
 resolves a paginated list of org users for a logged in user. **Requires an access token to resolve**
 
-
+***
 
 `ChatMessage.orgUser`
 
 resolves an org user from a chat message. This is used to pull info like display name tied to a chat message
 
-
+***
 
 `Comment.orgUser`
 
 resolves an org user from a comment. This is usually used to pull in an org user’s info on a comment.
 
-
+***
 
 `Article.orgUser`
 
 resolves an org user from an article. This is usually used to pull in an org user’s info for an article they created.
 
-
+***
 
 `OrgUserCounter.orgUser`
 
@@ -248,7 +248,7 @@ resolves an org user from an org user counter. This is usually used to pull in o
 
 OrgUserCounter
 
-
+***
 
 `Connection.orgUser`
 
@@ -256,9 +256,9 @@ resolves an org user from a connection. Usually used to pull in an org user’s 
 
 Connection
 
+***
 
-
-
+***
 
 ### Mutations
 
@@ -311,7 +311,7 @@ mutation OrgUserSmsOptIn {
 }
 ```
 
-
+***
 
 `orgUserUpsert`
 
@@ -392,7 +392,7 @@ mutation OrgUserUpsert ($input: OrgUserUpsertInput) {
 }
 ```
 
-
+***
 
 `orgUserSetRoleIds`
 
@@ -473,7 +473,7 @@ mutation OrgUserSetRolesIds ($input: OrgUserSetRoleIdsInput!) {
 }
 ```
 
-
+***
 
 `orgUserDeleteById`
 
@@ -544,3 +544,4 @@ mutation OrgUserDelete ($input: OrgUserDeleteByIdInput!) {
 }
 ```
 
+***

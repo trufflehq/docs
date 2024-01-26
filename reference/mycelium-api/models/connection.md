@@ -89,7 +89,7 @@ query ConnectionQuery ($input: ConnectionInput!) {
 }
 ```
 
-
+***
 
 `connectionConnection`
 
@@ -173,9 +173,9 @@ query ConnectionConnectionQuery ($input: ConnectionConnectionInput, $first: Int,
 }
 ```
 
+***
 
-
-
+***
 
 ### Mutations
 
@@ -256,7 +256,7 @@ mutation ConnectionUpsert ($input: ConnectionUpsertInput!) {
 }
 ```
 
-
+***
 
 `connectionDeleteById`
 
@@ -331,3 +331,4 @@ mutation connectionDeleteById ($input: ConnectionDeleteByIdInput!) {
 }
 ```
 
+***

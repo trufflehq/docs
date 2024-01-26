@@ -18,7 +18,7 @@ Resolves a user’s SeasonPassProgression for a specific SeasonPass. This is typ
 
 SeasonPass
 
-
+***
 
 ### Mutations
 
@@ -91,3 +91,4 @@ mutation SeasonPassProgressionUpsert ($input: SeasonPassProgressionUpsertInput!)
 }
 ```
 
+***

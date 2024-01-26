@@ -103,7 +103,7 @@ query EconomyActionQuery ($input: EconomyActionInput!) {
 }
 ```
 
-
+***
 
 `economyActionConnection`
 
@@ -250,7 +250,7 @@ query EconomyActionConnectionQuery ($input: EconomyActionConnectionInput, $first
 }
 ```
 
-
+***
 
 `SeasonPass.economyActionConnection`
 
@@ -267,7 +267,7 @@ Resolves a paginated list of economy actions for a season pass. This is usually 
 
 SeasonPass
 
-
+***
 
 `EconomyTransaction.economyAction`
 
@@ -275,9 +275,9 @@ Resolves an economy action from an economy transaction. This is usually used to 
 
 EconomyTransaction
 
+***
 
-
-
+***
 
 ### Mutations
 
@@ -364,3 +364,4 @@ mutation EconomyActionUpsert ($input: EconomyActionUpsertInput!) {
 }
 ```
 
+***

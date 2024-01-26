@@ -104,7 +104,7 @@ query GetForm($input: FormInput!) {
 }
 ```
 
-
+***
 
 `formConnection`
 
@@ -179,7 +179,7 @@ query GetForms {
 }
 ```
 
-
+***
 
 ### Mutations
 
@@ -260,7 +260,7 @@ mutation FormUpsert($input: FormUpsertInput!) {
 }
 ```
 
-
+***
 
 `formDeleteById`
 
@@ -328,3 +328,4 @@ mutation DeleteForm($input: FormDeleteByIdInput!) {
 }
 ```
 
+***

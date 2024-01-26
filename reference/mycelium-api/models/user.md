@@ -56,7 +56,7 @@ query UserGetMe {
 }
 ```
 
-
+***
 
 `user`
 
@@ -118,7 +118,7 @@ query UserById ($input: UserInput) {
 }
 ```
 
-
+***
 
 `users`
 
@@ -190,7 +190,7 @@ query UsersByIds ($input: UsersInput) {
 }
 ```
 
-
+***
 
 `OrgUser.user`
 
@@ -198,25 +198,25 @@ resolves a user from an org user. This is used to grab the Truffle user associat
 
 OrgUser
 
-
+***
 
 `Chat.users`
 
 resolves a list of all of the users in a chat (channel or dm).
 
-
+***
 
 `Comment.user`
 
 resolves a user from one of their comments
 
-
+***
 
 `Donation.user`
 
 resolves a user from a donation.
 
-
+***
 
 `FormResponse.user`
 
@@ -224,7 +224,7 @@ resolves a user from one of their responses to a form.
 
 FormResponse
 
-
+***
 
 `OrgUserCounter.user`
 
@@ -232,15 +232,15 @@ resolves a user from an org user counter. This is usually used to grab a user wh
 
 OrgUserCounter
 
-
+***
 
 `Alert.user`
 
 resolves a user from an alert.
 
+***
 
-
-
+***
 
 ### Mutations
 
@@ -282,7 +282,7 @@ mutation UserLoginAnon {
 }
 ```
 
-
+***
 
 `userJoin`
 
@@ -352,7 +352,7 @@ mutation UserJoin ($input: UserJoinInput!) {
 }
 ```
 
-
+***
 
 `userLoginEmailPhone`
 
@@ -419,7 +419,7 @@ mutation UserLoginEmailPhone ($input: UserLoginEmailPhoneInput!) {
 }
 ```
 
-
+***
 
 `userSetName`
 
@@ -479,7 +479,7 @@ mutation UserSetName ($input: UserSetNameInput!) {
 }
 ```
 
-
+***
 
 `userUpsert`
 
@@ -553,3 +553,4 @@ mutation UserUpsert ($input: UserUpsertInput!) {
 }
 ```
 
+***

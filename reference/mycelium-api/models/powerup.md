@@ -83,7 +83,7 @@ query PowerupQuery ($input: PowerupInput) {
 }
 ```
 
-
+***
 
 `powerupConnection`
 
@@ -202,7 +202,7 @@ query PowerupConnectionQuery ($first: Int, $after: String) {
 }
 ```
 
-
+***
 
 `Collectible.powerup`
 
@@ -222,7 +222,7 @@ collectible: {
 
 Collectible
 
-
+***
 
 `ActivePowerup.powerup`
 
@@ -230,7 +230,7 @@ Resolves a powerup from an active powerup. This query is usually used to resolve
 
 Active Powerup
 
-
+***
 
 ### Mutations
 

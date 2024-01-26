@@ -78,7 +78,7 @@ query EventSubscription ($input: EventSubscriptionInput) {
 }
 ```
 
-
+***
 
 `eventSubscriptionConnection`
 
@@ -163,9 +163,9 @@ query EventSubscriptionConnection ($first: Int, $after: String, $last: Int, $bef
 }
 ```
 
+***
 
-
-
+***
 
 ### Mutations
 
@@ -257,7 +257,7 @@ mutation EventSubscriptionUpsert ($input: EventSubscriptionUpsertInput!) {
 }
 ```
 
-
+***
 
 `eventSubscriptionDelete`
 
@@ -338,3 +338,4 @@ mutation EventSubscriptionDelete ($input: EventSubscriptionDeleteInput!) {
 }
 ```
 
+***
