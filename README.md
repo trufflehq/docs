@@ -31,10 +31,11 @@ Truffle apps can consist of one or more embeds, depending on how you want your a
 * **Windowed Embeds**: Shown as icons in the Truffle sidebar and offer a less intrusive experience. Users can click on the icon to pop open a draggable iFrame window with your app content.
 * **Page Embeds**: Directly injected onto the Twitch or YouTube page, allowing for a more integrated experience with the video or stream.
 * **Quick Action Embeds:** Streamers can interact with Truffle apps using the Quick Action Interface, which you should hook up to trigger events for viewers like starting a prediction.
+* **App Management Page Embeds**: Streamers could change advanced settings for your Truffle app or get OBS browser source links here.
 
 **Choosing a Development Framework**
 
-While the Truffle SDK does support most web development frameworks ask for support in our discord if something breaks), we recommend using Vite and React, if you aren't sure what to choose as most of our tutorials will use that for the tech stack.
+While the Truffle SDK does support most web development frameworks (ask for support in our discord if something breaks), we recommend using Vite and React if you aren't sure what to choose. This is the stack that most of our tutorials will be done in.
 
 
 
