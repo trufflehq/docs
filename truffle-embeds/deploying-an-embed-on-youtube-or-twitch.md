@@ -39,6 +39,13 @@ The most important prop in the embed config is the `url` prop. This tells the ex
 For more details about the embed config, take a look [here](../reference/embed-config.md).
 {% endhint %}
 
+After you make your changes, redeploy and reinstall your Truffle App to your org.
+
+```bash
+truffle-cli app deploy
+truffle-cli app install @my-org/my-truffle-app
+```
+
 Now if you visit your test stream, you should see your new embed by selecting it from the side bar.
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Our first deployed windowed embed</p></figcaption></figure>
