@@ -66,7 +66,7 @@ tileProps: {
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>What the quick action interface looks like for streamers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption><p>What the quick action interface looks like for streamers</p></figcaption></figure>
 
 Styles
 

@@ -4,53 +4,48 @@ description: An brief introduction to Truffle and Truffle apps
 
 # What Are Truffle Apps?
 
-**Introduction**
+## **Introduction**
 
 Welcome to the Truffle Developer Platform docs! If you are looking at these docs, you probably want an easy cross-platform way to create interactive experiences for creators and their viewers.
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Snuffle the pig hacking into the mainframe</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Snuffle the pig hacking into the mainframe</p></figcaption></figure>
 
-**What is Truffle?**
+## **What is Truffle?**
 
-Truffle is the company behind the Truffle browser extension. Our extension, originally Mogul.TV (built by Otto) was built for Ludwig to help make YouTube better for livestreamers. Since then, the Truffle team has taken over, and we have supercharged the extension so that 3rd party developers like you can build a killer app and deploy to any streamer on any platform.
+Truffle is the platform that connects online content creators with their followers. With Truffle, you're not a Youtuber, a Twitch streamer, or a TikToker, you're a _creator_. Viewers can install the [Truffle Browser Extension](https://truffle.vip/extension) to use Truffle Apps on various different content pages that belong to the creator. These apps can appear on a creators Youtube video, Youtube stream or Twitch stream.&#x20;
 
-**What is a Truffle App?**
+## **What is a Truffle App?**
 
-Truffle apps are web apps that get iframed and displayed to the end users. You choose your favorite frontend framework and your own backend, then build a web app that talks to the Truffle browser extension through the Truffle SDK.&#x20;
+Truffle apps are collections of features that creators can install to interact with their followers. I know that sounds a little vague, so let me give you a couple concrete examples.
 
-**Which platforms does Truffle support?**
+<figure><img src=".gitbook/assets/image (1).png" alt="" width="320"><figcaption><p>Custom chat</p></figcaption></figure>
+
+Custom Chat is one of our earliest and most popular Truffle apps. It allows viewers to participate in an enhanced, cross platform chat. It works on both Youtube and Twitch, so if you're a cross platform streamer, you'll want Custom Chat.&#x20;
+
+<figure><img src=".gitbook/assets/image (2).png" alt="" width="375"><figcaption><p>Polls</p></figcaption></figure>
+
+Polls is another popular app. The Polls app allows you to create real-time polls that your viewers can respond to. You can pose a question, offer some options, and specify a voting period for your viewers to respond. When the voting period ends, you and your viewers will see what the most popular option was!
+
+## **Which platforms does Truffle support?**
 
 Truffle currently only supports Twitch and YouTube for 3rd party apps. We're exploring expansions to other platforms like Kick or any other site, based on community interest (so reach out if you are interested).
 
 The Truffle browser extension is currently only supported on Firefox and Chromium based browsers.
 
-**How Can End Users Interact with My App?**
+## The Anatomy of an App
 
-Truffle apps can consist of one or more embeds, depending on how you want your app to interface with the viewers, mods, or streamers.
+Right now, apps can have two main components: **Embeds** and **Economic Features**.&#x20;
 
-* **Windowed Embeds**: Shown as icons in the Truffle sidebar and offer a less intrusive experience. Users can click on the icon to pop open a draggable iFrame window with your app content.
-* **Page Embeds**: Directly injected onto the Twitch or YouTube page, allowing for a more integrated experience with the video or stream.
-* **Quick Action Embeds:** Streamers can interact with Truffle apps using the Quick Action Interface, which you should hook up to trigger events for viewers like starting a prediction.
-* **App Management Page Embeds**: Streamers could change advanced settings for your Truffle app or get OBS browser source links here.
+**Embeds** allow developers to embed their web app directly into a creator's content page (e.g. a Youtube or Twitch video or stream). Custom chat, for example, gets embedded where the normal Youtube or Twitch chat would be. The Polls embed doesn't get embedded anywhere specific on the page, but rather appears as a window that can be opened through the Truffle Sidebar. These are called **Windowed Embeds**.
 
-**Choosing a Development Framework**
+<figure><img src=".gitbook/assets/image (5).png" alt="" width="375"><figcaption><p>The polls app being opened from the sidebar</p></figcaption></figure>
 
-While the Truffle SDK does support most web development frameworks (ask for support in our discord if something breaks), we recommend using Vite and React if you aren't sure what to choose. This is the stack that most of our tutorials will be done in.
+There's a lot to talk about Embeds, so we'll discuss them more in a later section.
 
+**Economic Features** allow users to buy, sell, and trade different items and virtual currencies. **Sparks** are Truffle's primary premium currency that viewers can buy with a credit card. You can then offer **Products** for viewers to buy using Sparks. If you want to issue your own virtual currency, you can create a **Countable** in your app and decide how viewers earn that currency. Maybe you make a game where viewers must collect coins that they can spend on other items. The world is your oyster!
 
+Again, there's a lot to discuss about the Economic Features in an app, so we'll save the deets for a later section.
 
-Follow our getting started guide to build your first App!
+## What's next?
 
-{% content-ref url="truffle-embeds/getting-started.md" %}
-[getting-started.md](truffle-embeds/getting-started.md)
-{% endcontent-ref %}
-
-##
-
-
-
-
-
-
-
-\
+I could talk all day about how great Truffle is, but I'm guessing you want to get your hands dirty and make something. We'll do that in the next section!
